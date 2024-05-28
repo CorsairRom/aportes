@@ -6,7 +6,7 @@ Ejecución desde la consola con argumento
 Puedes ejecutar el script proporcionando la ruta al archivo manifest directamente desde la consola:
 
 ```sh
-python3 auto.py [ruta/a/manifest.py]
+python3 auto.py [ruta/a/la/carpeta/del/modulo]
 ```
 
 ### Ejecución interactiva
@@ -19,7 +19,7 @@ python3 auto.py
 Luego, ingresa la ruta cuando se te solicite:
 
 ```sh
-> Ingrese la ruta del manifest: ruta/a/manifest.py
+> Ingrese la ruta del manifest: ruta/a/la/carpeta/del/modulo
 ```
 
 ### Comportamiento del script
@@ -51,7 +51,7 @@ Luego, ingresa la ruta cuando se te solicite:
 1. **Ejecución con argumento:**
 
 ```sh
-python3 auto.py /ruta/al/manifest.py
+python3 auto.py ruta/a/la/carpeta/del/modulo
 ```
 
 2. **Ejecución interactiva:**
@@ -63,9 +63,9 @@ python3 auto.py
 Luego ingresa la ruta cuando se te solicite:
 
 ```sh
-> Ingrese la ruta del manifest: /ruta/al/manifest.py
+> Ingrese la ruta del manifest: ruta/a/la/carpeta/del/modulo
 ```
 
 ### Salida
 
-El script generará un archivo JSON llamado [nombre_del_manifest]_assets.json en el mismo directorio donde se encuentra el manifest. Este archivo JSON contendrá el diccionario assets con las rutas de los templates extraídas, listo para ser agregado al nuevo manifest.
+El script generará un archivo JSON llamado [nombre_carpeta_del_modulo]_assets.json en el mismo directorio donde se encuentra el manifest. Este archivo JSON contendrá el diccionario assets con las rutas de los templates extraídas, listo para ser agregado al nuevo manifest.
