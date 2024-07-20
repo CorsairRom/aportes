@@ -24,9 +24,9 @@ class ModelFieldVisitor(ast.NodeVisitor):
                         model_name = ast.literal_eval(stmt.value)
                     else:
                         field_name = stmt.targets[0].id
+                        field_type, is_related = self.get_field_type(stmt.value)
                         if not field_name.startswith('_'):
-                            field_type = self.get_field_type(stmt.value)
-                            fields.append((field_name, field_type))
+                            fields.append((field_name, field_type, is_related))
             if model_name:
                 self.models[model_name] = fields
 
@@ -41,8 +41,13 @@ class ModelFieldVisitor(ast.NodeVisitor):
 
     def get_field_type(self, node):
         if isinstance(node, ast.Call) and isinstance(node.func, ast.Attribute):
-            return node.func.attr
-        return None
+            field_type = node.func.attr
+            is_related = any(
+                isinstance(keyword, ast.keyword) and (keyword.arg == 'related' or keyword.arg == 'compute')
+                for keyword in node.keywords
+            )
+            return field_type, is_related
+        return None, False
 
 def extract_models_info(file_path):
     with open(file_path, 'r') as file:
@@ -63,14 +68,14 @@ def check_columns_in_table(table_name, columns, connection):
     rows = cursor.fetchall()
     existing_columns = {row[0]: row[1] for row in rows}
 
-    fields_exist = [col for col in columns if col[0] in existing_columns]
-    no_fields = [col for col in columns if col[0] not in existing_columns and not col[0].endswith('_ids')]
+    fields_exist = [col for col in columns if col[0] in existing_columns and not col[2]]
+    no_fields = [col for col in columns if col[0] not in existing_columns and not col[2]]
     related_fields = [col for col in columns if col[0].endswith('_ids')]
     
     # Verificar tipo de datos
     wrong_type_fields = []
     for col in fields_exist:
-        field_name, expected_type = col
+        field_name, expected_type, _ = col
         actual_type = existing_columns[field_name]
         if not is_type_matching(expected_type, actual_type):
             wrong_type_fields.append((field_name, expected_type, actual_type))
