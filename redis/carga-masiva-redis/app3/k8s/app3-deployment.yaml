@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: app1
+  name: app3
 spec:
   replicas: 1
   selector:
@@ -20,3 +20,17 @@ spec:
         - containerPort: 5000
       imagePullSecrets:
         - name: regcred
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: app3-service
+spec:
+  selector:
+    app: app3
+  ports:
+    - protocol: TCP
+      port: 5000
+      targetPort: 5000
+      nodePort: 30003
+  type: NodePort

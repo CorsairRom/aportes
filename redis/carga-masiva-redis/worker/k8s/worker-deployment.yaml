@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: worker
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: worker
+  template:
+    metadata:
+      labels:
+        app: worker
+    spec:
+      containers:
+      - name: worker
+        image: worker:latest
+        imagePullPolicy: IfNotPresent
+        env:
+        - name: DATABASE_URI
+          value: "postgresql://myuser:mypassword@postgres:5432/mydb"
+        - name: REDIS_HOST
+          value: "redis"
+        - name: REDIS_PORT
+          value: "6379"
+      imagePullSecrets:
+        - name: regcred
