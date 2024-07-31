@@ -22,6 +22,8 @@ class ModelFieldVisitor(ast.NodeVisitor):
                 if isinstance(stmt, ast.Assign) and isinstance(stmt.targets[0], ast.Name):
                     if stmt.targets[0].id == '_name':
                         model_name = ast.literal_eval(stmt.value)
+                    elif stmt.targets[0].id == '_inherit' and model_name is None:
+                        model_name = ast.literal_eval(stmt.value)
                     else:
                         field_name = stmt.targets[0].id
                         field_type, is_related = self.get_field_type(stmt.value)
