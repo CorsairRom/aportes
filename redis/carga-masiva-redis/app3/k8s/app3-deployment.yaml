@@ -6,15 +6,15 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: app1
+      app: app3
   template:
     metadata:
       labels:
-        app: app1
+        app: app3
     spec:
       containers:
-      - name: app1
-        image: app1:latest
+      - name: app3
+        image: app3:latest
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 5000
