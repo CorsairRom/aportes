@@ -12,7 +12,7 @@ redis_client = redis.StrictRedis(host='redis', port=6379, decode_responses=True)
 
 class Data(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    name = db.Column(db.String(50))
+    name = db.Column(db.String(150))
 
 @app.route('/load', methods=['POST'])
 def load_data():

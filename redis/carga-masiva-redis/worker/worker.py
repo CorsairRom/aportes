@@ -22,7 +22,7 @@ Base = declarative_base()
 class Data(Base):
     __tablename__ = 'data'
     id = Column(Integer, primary_key=True)
-    name = Column(String(50))
+    name = Column(String(150))
 
     def __init__(self, name):
         self.name = name
@@ -32,6 +32,7 @@ def process_task(task):
         name = task.get('name')
         data = Data(name=name)
         session.add(data)
+        time.sleep(0.1)
         session.commit()
         redis_client.rpush('data', json.dumps({'id': data.id, 'name': data.name}))
         logger.info("Processed task: %s", task)

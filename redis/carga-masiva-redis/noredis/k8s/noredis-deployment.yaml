@@ -1,36 +1,36 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: app3
+  name: noredis
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
-      app: app3
+      app: noredis
   template:
     metadata:
       labels:
-        app: app3
+        app: noredis
     spec:
       containers:
-      - name: app3
-        image: app3:latest
-        imagePullPolicy: IfNotPresent
-        ports:
-        - containerPort: 5000
+        - name: noredis
+          image: noredis:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 5000
       imagePullSecrets:
         - name: regcred
 ---
 apiVersion: v1
 kind: Service
 metadata:
-  name: app3-service
+  name: noredis-service
 spec:
   selector:
-    app: app3
+    app: noredis
   ports:
     - protocol: TCP
       port: 5000
       targetPort: 5000
-      nodePort: 30003
+      nodePort: 30004
   type: NodePort
