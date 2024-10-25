@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <data noupdate="1">
+        <record id="causatp_01" model="contract.operations.causeslt">
+            <field name="origin">Internal</field>
+            <field name="family_id" ref="asset_family_ta"/>
+            <field name="name">BAJADA DE PERSONAL -TURNO</field>
+        </record>
+    </data>
+</odoo>

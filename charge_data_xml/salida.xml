@@ -1,0 +1,985 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <data noupdate="1">
+        <record id="crew_100" model="struct.crew">
+            <field name="name">MIGUEL ANTONIO, CONTRERAS CARTES</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_100'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_101" model="struct.crew">
+            <field name="name">MACARENA ARACELLY, GONZALEZ GUERRERO</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_101'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_102" model="struct.crew">
+            <field name="name">CLAUDIO ANDRES, NEIRA PAINEO</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_102'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_103" model="struct.crew">
+            <field name="name">CRISTOBAL GABRIEL, TORRES CORREA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_103'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_104" model="struct.crew">
+            <field name="name">MANUEL EDUARDO, ORELLANA GATICA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_104'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_105" model="struct.crew">
+            <field name="name">SERGIO ENRIQUE, VENEGAS RIOS</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_104'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_106" model="struct.crew">
+            <field name="name">FRANCISCA ISIDORA EUGENIA, BUSTOS BAEZA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_105'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_107" model="struct.crew">
+            <field name="name">FERNANDO JOAQUIN, BELTRAN CANCINO</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_106'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_108" model="struct.crew">
+            <field name="name">VICTOR ALFONSO, CRUCES PINILLA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_106'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_109" model="struct.crew">
+            <field name="name">LUIS DAVID, GALLEGOS GUTIERREZ</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_106'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_110" model="struct.crew">
+            <field name="name">GONZALO ALBERTO, GONZALEZ INOSTROZA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_106'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_111" model="struct.crew">
+            <field name="name">JOSE MIGUEL, MUÑOZ MUÑOZ</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_106'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_112" model="struct.crew">
+            <field name="name">CAMILO ENRIQUE, SANCHEZ SANCHEZ</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_106'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_113" model="struct.crew">
+            <field name="name">JAIME ENRIQUE, URIBE CORONADO</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_106'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_114" model="struct.crew">
+            <field name="name">MARIA JOSE, URRA MATUS</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_106'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_115" model="struct.crew">
+            <field name="name">MANUEL DANIEL, VENEGAS RAMIREZ</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_106'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_116" model="struct.crew">
+            <field name="name">JUAN ADRIAN, CANALES VALENCIA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_107'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_117" model="struct.crew">
+            <field name="name">CAROLINA SOLEDAD, CARRASCO CARRASCO</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_107'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_118" model="struct.crew">
+            <field name="name">WILSON ELIAS, CISTERNA PAILLAO</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_107'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_119" model="struct.crew">
+            <field name="name">MIGUEL ANGEL, CONCHA NAVARRETE</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_107'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_120" model="struct.crew">
+            <field name="name">PABLO ESTEBAN, CONEJEROS SEPULVEDA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_107'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_121" model="struct.crew">
+            <field name="name">ISAIAS ESTEBAN, ESQUELLA CASTILLO</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_107'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_122" model="struct.crew">
+            <field name="name">MARCIAL ANTONIO, HUENCHUÑIR LILLO</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_107'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_123" model="struct.crew">
+            <field name="name">MATIAS NICOLAS HUGO, MELLADO ROILAR</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_107'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_124" model="struct.crew">
+            <field name="name">HERMANN EDUARDO, MOLINA RIVERA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_107'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_125" model="struct.crew">
+            <field name="name">ESTEFANY DAYAN, MONTENEGRO VILLARROEL</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_107'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_126" model="struct.crew">
+            <field name="name">DIAMARA RAYEN, MUÑOZ CATRILEO</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_107'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_127" model="struct.crew">
+            <field name="name">SEBASTIAN ANIBAL, NAVARRETE NOVOA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_107'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_128" model="struct.crew">
+            <field name="name">CRISTOFER MARCELO, VERA ITURRA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_107'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_129" model="struct.crew">
+            <field name="name">MAURICIO DEL ROSARIO, ACUÑA LOBOS</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_108'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_130" model="struct.crew">
+            <field name="name">RODRIGO ANDRES, CADIZ PARRA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_108'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_131" model="struct.crew">
+            <field name="name">ALFREDO FIDEL, CARO NOVOA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_108'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_132" model="struct.crew">
+            <field name="name">JUAN ANTONIO, CORREA SALINAS</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_108'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_133" model="struct.crew">
+            <field name="name">JUAN ROLANDO, FERREIRA PALMA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_108'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_134" model="struct.crew">
+            <field name="name">ISAIAS DAVID, HIDALGO MEDINA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_108'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_135" model="struct.crew">
+            <field name="name">JUAN ALBERTO, MALDONADO GUTIERREZ</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_108'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_136" model="struct.crew">
+            <field name="name">PEDRO, SANHUEZA RIQUELME</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_109'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_137" model="struct.crew">
+            <field name="name">LEONARDO DOMINGO, SILVA BARRA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_110'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_138" model="struct.crew">
+            <field name="name">FELIPE ALEJANDRO, DIAZ RODRIGUEZ</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_111'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_139" model="struct.crew">
+            <field name="name">LUIS ANTONIO, ARAVENA SALAZAR</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_112'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_140" model="struct.crew">
+            <field name="name">ALEXIS EDUARDO, BOBADILLA OLIVA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_112'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_141" model="struct.crew">
+            <field name="name">ALONSO JACOB, BURDILES BELTRAN</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_112'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_142" model="struct.crew">
+            <field name="name">ALVARO RODRIGO, ESPINOZA CHAVEZ</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_112'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_143" model="struct.crew">
+            <field name="name">FRANCISCO JAVIER, FUENTEALBA ABURTO</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_112'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_144" model="struct.crew">
+            <field name="name">PEDRO ARNOLDO, MONTOYA PEREZ</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_112'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_145" model="struct.crew">
+            <field name="name">HECTOR OMAR, ÑANCO ANTILEF</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_112'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_146" model="struct.crew">
+            <field name="name">CRISTIAN MATIAS, SOTO VALENZUELA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_112'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_147" model="struct.crew">
+            <field name="name">DANIEL ALEXANDER, VILLALOBOS REBOLLEDO</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_112'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_148" model="struct.crew">
+            <field name="name">HECTOR LEONEL, YAÑEZ OÑATE</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_112'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_149" model="struct.crew">
+            <field name="name">FREDY MARCELO, OLAVE RIFFO</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_113'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_150" model="struct.crew">
+            <field name="name">RICHARD ANGELO, BURTON GARRIDO</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_114'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_151" model="struct.crew">
+            <field name="name">GUNARS YOVANINO, JORQUERA LOPEZ</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_115'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_152" model="struct.crew">
+            <field name="name">MARCO ANTONIO, ESTRADA GONZALEZ</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_116'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_153" model="struct.crew">
+            <field name="name">DANIEL ENRIQUE, PEREIRA ARIAS</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_117'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_154" model="struct.crew">
+            <field name="name">BARBARA BELEN, TORRES AGUAYO</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_118'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_155" model="struct.crew">
+            <field name="name">VERONICA PATRICIA, BAEZA PERRY</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_119'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_156" model="struct.crew">
+            <field name="name">CARLOS HUGO, BARRENECHEA GUTIERREZ</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_120'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_157" model="struct.crew">
+            <field name="name">MANUEL IGNACIO, MALDONADO BREVIS</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_121'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_158" model="struct.crew">
+            <field name="name">JAVIER IGNACIO, UBAL CASTAÑEDA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_122'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_159" model="struct.crew">
+            <field name="name">CARLOS ALBERTO, GARCIA CARO</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_123'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_160" model="struct.crew">
+            <field name="name">LUIS ALBERTO, TOLEDO ARANEDA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_123'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_161" model="struct.crew">
+            <field name="name">JORGE ANDRES, BELTRAN JARA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_124'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_162" model="struct.crew">
+            <field name="name">CLAUDIA ROXANA, ORTEGA MELLA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_125'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_163" model="struct.crew">
+            <field name="name">NATALIA, BERNAL VILLEGAS</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_126'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_164" model="struct.crew">
+            <field name="name">CRISTOBAL FELIPE, LEIVA CARREÑO</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_127'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_165" model="struct.crew">
+            <field name="name">ALEJANDRO DAMIAN, FIGUEROA LOPEZ</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_128'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_166" model="struct.crew">
+            <field name="name">JORGE LUIS FELIPE, AGUAYO ARANGUEZ</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_129'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_167" model="struct.crew">
+            <field name="name">DANIEL ENRIQUE, AYALA HERNANDEZ</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_129'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_168" model="struct.crew">
+            <field name="name">CARLOS ABRAHAM, BORGOÑO ALDEA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_129'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_169" model="struct.crew">
+            <field name="name">JAVIERA VALENTINA, DIAZ PEREIRA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_129'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_170" model="struct.crew">
+            <field name="name">JAVIER IGNACIO, MONTOYA MONTOYA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_129'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_171" model="struct.crew">
+            <field name="name">SERGIO HANS, NAVARRETE VELOSO</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_129'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_172" model="struct.crew">
+            <field name="name">FELIPE ARON, ORTIZ ROMERO</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_129'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_173" model="struct.crew">
+            <field name="name">MARIO RAUL, OVIEDO SEPULVEDA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_129'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_174" model="struct.crew">
+            <field name="name">MIGUEL ANGEL, QUIÑONES URRUTIA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_129'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_175" model="struct.crew">
+            <field name="name">CRISTINA ANDREA, SOTO QUINTANA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_129'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_176" model="struct.crew">
+            <field name="name">REINALDO ARTURO, URRUTIA LUENGO</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_129'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_177" model="struct.crew">
+            <field name="name">DANIEL ALEJANDRO, URRUTIA VELOSO</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_129'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_178" model="struct.crew">
+            <field name="name">LUIS GABRIEL, HERRERA ORDENES</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_130'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_179" model="struct.crew">
+            <field name="name">MATIAS OSVALDO, ASENJO PAVEZ</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_131'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_180" model="struct.crew">
+            <field name="name">MAURICIO ABEL, ANABALON SOTO</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_132'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_181" model="struct.crew">
+            <field name="name">FABIAN EDUARDO, CASTILLO MEZA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_132'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_182" model="struct.crew">
+            <field name="name">ERIK DAVIAN, ELGUETA SEPULVEDA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_132'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_183" model="struct.crew">
+            <field name="name">MATIAS SEBASTIAN, ESPINOZA GAETE</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_132'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_184" model="struct.crew">
+            <field name="name">CRISTIAN EDUARDO, GONZALEZ URIBE</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_132'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_185" model="struct.crew">
+            <field name="name">MARCOS ANTONIO, JARA VIDAL</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_132'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_186" model="struct.crew">
+            <field name="name">FREDY ANTONIO, MALDONADO SAN MARTIN</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_132'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_187" model="struct.crew">
+            <field name="name">VICENTE MATIAS, NITRIHUAL GALLARDO</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_132'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_188" model="struct.crew">
+            <field name="name">MAURICIO ANTONIO, TORRES CIFUENTES</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_132'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_189" model="struct.crew">
+            <field name="name">PATRICIO ANDRES, TORRES RIOS</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_132'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_190" model="struct.crew">
+            <field name="name">JAVIER EDUARDO, VALDEBENITO ROJAS</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_132'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_191" model="struct.crew">
+            <field name="name">JUAN ALEJANDRO, VELOSO GARCIA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_132'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_192" model="struct.crew">
+            <field name="name">MIGUEL ADOLFO, BURTON GARRIDO</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_133'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_193" model="struct.crew">
+            <field name="name">GERARDO OCTAVIO, DONOSO VIELMA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_133'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_194" model="struct.crew">
+            <field name="name">PATRICIO NICOLAS, SEPULVEDA GARCES</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_133'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_195" model="struct.crew">
+            <field name="name">VICTOR ALEJANDRO, VALLEJOS DIAZ</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_133'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_196" model="struct.crew">
+            <field name="name">ISMAEL IGNACIO, SILVA PLACENCIA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_134'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_197" model="struct.crew">
+            <field name="name">RAMON BERNARDO, OSES CASTRO</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_135'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_198" model="struct.crew">
+            <field name="name">PEDRO OCTAVIO, VERGARA ANCATRIO</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_135'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_199" model="struct.crew">
+            <field name="name">JOSE NELSON, OYARZO HERNANDEZ</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_136'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_200" model="struct.crew">
+            <field name="name">RENE ABRAHAM, ZAPATA LEVIO</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_136'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_201" model="struct.crew">
+            <field name="name">CONSTANZA ALEJANDRA, ACUÑA BURGOS</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_137'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_202" model="struct.crew">
+            <field name="name">MARIO ANDRES, BRICEÑO RUIZ</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_137'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_203" model="struct.crew">
+            <field name="name">JOAQUIN FRANCISCO, EPUIN RUBILAR</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_137'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_204" model="struct.crew">
+            <field name="name">FLORENCIO PATRICIO, GALLEGOS GUTIERREZ</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_137'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_205" model="struct.crew">
+            <field name="name">JAVIER ALEJANDRO, LEVIO MARILEO</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_137'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_206" model="struct.crew">
+            <field name="name">CARLOS ALBERTO, MATAMALA ARRIAGADA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_137'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_207" model="struct.crew">
+            <field name="name">EDGARDO MOISES, MONARES MUÑOZ</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_137'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_208" model="struct.crew">
+            <field name="name">JOSE LUIS, PARRA CHAVEZ</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_137'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_209" model="struct.crew">
+            <field name="name">SERGIO HERMINIO, SANCHEZ MORALES</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_137'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_210" model="struct.crew">
+            <field name="name">MOISES JAVIER, VALENZUELA VALENZUELA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_137'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_211" model="struct.crew">
+            <field name="name">JORGE ANTONIO, VEGA CIFUENTES</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_137'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_212" model="struct.crew">
+            <field name="name">GERSON ANDRES, YAÑEZ FUENTEALBA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_137'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_213" model="struct.crew">
+            <field name="name">NANCY LAURA ESTELA, ALTAMIRANO INOSTROZA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_138'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_214" model="struct.crew">
+            <field name="name">BENJAMIN ESTEBAN, JAQUE RODRIGUEZ</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_138'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_215" model="struct.crew">
+            <field name="name">CRISTIAN ANDRES, PARADA SAN MARTIN</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_138'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_216" model="struct.crew">
+            <field name="name">BENJAMIN PATRICIO, BASUALDO BELLO</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_139'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_217" model="struct.crew">
+            <field name="name">JOAQUIN ALEJANDRO, FUENTES VALDIVIA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_139'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_218" model="struct.crew">
+            <field name="name">SERGIO ANSELMO, GONZALEZ CONTRERAS</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_139'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_219" model="struct.crew">
+            <field name="name">MIRKO RODRIGO, INOSTROZA GONZALEZ</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_139'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_220" model="struct.crew">
+            <field name="name">HECTOR IGNACIO, INOSTROZA VEJAR</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_139'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_221" model="struct.crew">
+            <field name="name">DAVID MOISES, JOFRE JOFRE</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_139'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_222" model="struct.crew">
+            <field name="name">PABLO ALFONSO, MARDONES FIGUEROA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_139'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_223" model="struct.crew">
+            <field name="name">SAMUEL ELIAS, MUÑOZ QUIJADA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_139'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_224" model="struct.crew">
+            <field name="name">LUIS HUMBERTO, OLIVA CORTES</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_139'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_225" model="struct.crew">
+            <field name="name">SIXTO RAUL, QUEZADA MELLA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_139'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_226" model="struct.crew">
+            <field name="name">GERVASIO EMILIO, SALAZAR RETAMAL</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_139'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_227" model="struct.crew">
+            <field name="name">CAMILA ALEJANDRA, SANDOVAL ACUÑA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_139'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_228" model="struct.crew">
+            <field name="name">NELSON PATRICIO, SOVINO GAJARDO</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_139'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_229" model="struct.crew">
+            <field name="name">SEBASTIAN LEANDRO, VALLEJOS SANCHEZ</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_139'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_230" model="struct.crew">
+            <field name="name">GUILLERMO ALEXIS, VELOSO SAEZ</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_139'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_231" model="struct.crew">
+            <field name="name">HUGO EDUARDO, ZURITA ZURITA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_139'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_232" model="struct.crew">
+            <field name="name">JUAN DE DIOS, CAMPOS CAMPOS</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_140'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_233" model="struct.crew">
+            <field name="name">IVAN ESTEBAN, CARDENAS ACUÑA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_140'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_234" model="struct.crew">
+            <field name="name">JOSE BERNARDO, CUEVAS BECAR</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_140'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_235" model="struct.crew">
+            <field name="name">JUAN BERNARDO, CUEVAS CARTES</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_140'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_236" model="struct.crew">
+            <field name="name">JUAN CARLOS, GONZALEZ MIRANDA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_140'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_237" model="struct.crew">
+            <field name="name">CARLOS HENRY, GONZALEZ SANDOVAL</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_140'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_238" model="struct.crew">
+            <field name="name">JOSE FRANCISCO, MALDONADO MUÑOZ</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_140'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_239" model="struct.crew">
+            <field name="name">MIGUEL ENRIQUE, MATAMALA ARRIAGADA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_140'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_240" model="struct.crew">
+            <field name="name">DANIEL IGNACIO, ORTIZ OBREQUE</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_140'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_241" model="struct.crew">
+            <field name="name">JOSE MARCIAL, PEREZ INOSTROZA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_140'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_242" model="struct.crew">
+            <field name="name">ISMAEL ANTONIO, VALENCIA RAMIREZ</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_140'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_243" model="struct.crew">
+            <field name="name">JAVIER EDUARDO, MOHOR RIFFO</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_141'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_244" model="struct.crew">
+            <field name="name">MAURICIO JAVIER, VERGARA CARDENAS</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_141'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_245" model="struct.crew">
+            <field name="name">JOAQUIN ALBERTO, MALLEA VELOSO</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_142'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_246" model="struct.crew">
+            <field name="name">JUAN CARLOS, PINO CISTERNA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_142'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_247" model="struct.crew">
+            <field name="name">ANGELO ANTONY, SOTO FIGUEROA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_142'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_248" model="struct.crew">
+            <field name="name">PEDRO HERNAN, ANCAMILLA SANDOVAL</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_143'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_249" model="struct.crew">
+            <field name="name">JOSE ORLANDO, ANTOINE QUEZADA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_143'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_250" model="struct.crew">
+            <field name="name">SERGIO ANTONIO, QUINTEROS VALLEJOS</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_143'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_251" model="struct.crew">
+            <field name="name">CLAUDIO EDGARDO, RIQUELME OBREQUE</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_143'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_252" model="struct.crew">
+            <field name="name">ERASMO CARLOS, GAJARDO MUÑOZ</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_144'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_253" model="struct.crew">
+            <field name="name">CARLOS ORLANDO, SANTANDER LOPEZ</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_144'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_254" model="struct.crew">
+            <field name="name">CLAUDIO EDUARDO, CELEDON GODOY</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_145'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_255" model="struct.crew">
+            <field name="name">JULIO CESAR, COLLINAO COLLINAO</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_146'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_256" model="struct.crew">
+            <field name="name">LUIS ALEJANDRO, FLORES BAEZA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_146'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_257" model="struct.crew">
+            <field name="name">VICTOR GUSTAVO, GONZALEZ ESPARZA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_146'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_258" model="struct.crew">
+            <field name="name">MIGUEL SIGISFREDO, VIDAL ULLOA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_146'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_259" model="struct.crew">
+            <field name="name">ALVARO FRANCISCO, SAN MARTIN SAN MARTIN</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_147'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_260" model="struct.crew">
+            <field name="name">MIGUEL ANGEL, SOTO JARA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_147'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_261" model="struct.crew">
+            <field name="name">JOAQUIN ALBERTO, MALLEA VELOSO</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_142'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_262" model="struct.crew">
+            <field name="name">JUAN CARLOS, PINO CISTERNA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_142'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_263" model="struct.crew">
+            <field name="name">ANGELO ANTONY, SOTO FIGUEROA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_142'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_264" model="struct.crew">
+            <field name="name">PEDRO HERNAN, ANCAMILLA SANDOVAL</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_143'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_265" model="struct.crew">
+            <field name="name">JOSE ORLANDO, ANTOINE QUEZADA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_143'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_266" model="struct.crew">
+            <field name="name">SERGIO ANTONIO, QUINTEROS VALLEJOS</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_143'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_267" model="struct.crew">
+            <field name="name">CLAUDIO EDGARDO, RIQUELME OBREQUE</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_143'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_268" model="struct.crew">
+            <field name="name">JOAQUIN ALBERTO, MALLEA VELOSO</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_142'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_269" model="struct.crew">
+            <field name="name">JUAN CARLOS, PINO CISTERNA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_142'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_270" model="struct.crew">
+            <field name="name">ANGELO ANTONY, SOTO FIGUEROA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_142'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_271" model="struct.crew">
+            <field name="name">PEDRO HERNAN, ANCAMILLA SANDOVAL</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_143'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_272" model="struct.crew">
+            <field name="name">JOSE ORLANDO, ANTOINE QUEZADA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_143'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_273" model="struct.crew">
+            <field name="name">SERGIO ANTONIO, QUINTEROS VALLEJOS</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_143'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_274" model="struct.crew">
+            <field name="name">CLAUDIO EDGARDO, RIQUELME OBREQUE</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_143'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_275" model="struct.crew">
+            <field name="name">JOAQUIN ALBERTO, MALLEA VELOSO</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_142'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_276" model="struct.crew">
+            <field name="name">JUAN CARLOS, PINO CISTERNA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_142'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_277" model="struct.crew">
+            <field name="name">ANGELO ANTONY, SOTO FIGUEROA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_142'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_278" model="struct.crew">
+            <field name="name">PEDRO HERNAN, ANCAMILLA SANDOVAL</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_143'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_279" model="struct.crew">
+            <field name="name">JOSE ORLANDO, ANTOINE QUEZADA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_143'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_280" model="struct.crew">
+            <field name="name">SERGIO ANTONIO, QUINTEROS VALLEJOS</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_143'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_281" model="struct.crew">
+            <field name="name">CLAUDIO EDGARDO, RIQUELME OBREQUE</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_143'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_282" model="struct.crew">
+            <field name="name">JOAQUIN ALBERTO, MALLEA VELOSO</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_142'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_283" model="struct.crew">
+            <field name="name">JUAN CARLOS, PINO CISTERNA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_142'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_284" model="struct.crew">
+            <field name="name">ANGELO ANTONY, SOTO FIGUEROA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_142'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_285" model="struct.crew">
+            <field name="name">PEDRO HERNAN, ANCAMILLA SANDOVAL</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_143'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_286" model="struct.crew">
+            <field name="name">JOSE ORLANDO, ANTOINE QUEZADA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_143'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_287" model="struct.crew">
+            <field name="name">SERGIO ANTONIO, QUINTEROS VALLEJOS</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_143'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_288" model="struct.crew">
+            <field name="name">CLAUDIO EDGARDO, RIQUELME OBREQUE</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_143'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_289" model="struct.crew">
+            <field name="name">JOAQUIN ALBERTO, MALLEA VELOSO</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_142'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_290" model="struct.crew">
+            <field name="name">JUAN CARLOS, PINO CISTERNA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_142'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_291" model="struct.crew">
+            <field name="name">ANGELO ANTONY, SOTO FIGUEROA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_142'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_292" model="struct.crew">
+            <field name="name">PEDRO HERNAN, ANCAMILLA SANDOVAL</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_143'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_293" model="struct.crew">
+            <field name="name">JOSE ORLANDO, ANTOINE QUEZADA</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_143'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_294" model="struct.crew">
+            <field name="name">SERGIO ANTONIO, QUINTEROS VALLEJOS</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_143'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+        <record id="crew_295" model="struct.crew">
+            <field name="name">CLAUDIO EDGARDO, RIQUELME OBREQUE</field>
+            <field name="type_ids" eval="[Command.link(ref('crew_type_143'))]" />
+            <field name="company_id" ref="company_demo_100" />
+        </record>
+    </data>
+</odoo>

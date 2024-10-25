@@ -1,0 +1,1600 @@
+<odoo>
+    <data noupdate="1">
+        <record id="causatp_internal_ALPINE_1" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_ta" />
+            <field name="name">BAJADA DE PERSONAL -TURNO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: BAJADA DE PERSONAL -TURNO</field>
+        </record>
+        <record id="causatp_internal_ALPINE_2" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_ta" />
+            <field name="name">CAPACITACIONES O CHARLAS EN TERRENO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: CAPACITACIONES O CHARLAS EN TERRENO</field>
+        </record>
+        <record id="causatp_internal_ALPINE_3" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_ta" />
+            <field name="name">CORTE DE CABLE/FALLA EN LA LÍNEA </field>
+            <field name="description">Causa de pérdida de tiempo del mandante: CORTE DE CABLE/FALLA EN LA LÍNEA </field>
+        </record>
+        <record id="causatp_internal_ALPINE_4" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_ta" />
+            <field name="name">DESINSTALACIÓN TORRE</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: DESINSTALACIÓN TORRE</field>
+        </record>
+        <record id="causatp_internal_ALPINE_5" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_ta" />
+            <field name="name">EQUIPO REALIZA OTRA ACTIVIDAD</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: EQUIPO REALIZA OTRA ACTIVIDAD</field>
+        </record>
+        <record id="causatp_internal_ALPINE_6" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_ta" />
+            <field name="name">FALLA EQUIPO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: FALLA EQUIPO</field>
+        </record>
+        <record id="causatp_internal_ALPINE_7" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_ta" />
+            <field name="name">FALLA EQUIPO ARRUMADO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: FALLA EQUIPO ARRUMADO</field>
+        </record>
+        <record id="causatp_internal_ALPINE_8" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_ta" />
+            <field name="name">FALTA COMBUSTIBLE</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: FALTA COMBUSTIBLE</field>
+        </record>
+        <record id="causatp_internal_ALPINE_9" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_ta" />
+            <field name="name">FALTA ESPACIO PARA FAENA </field>
+            <field name="description">Causa de pérdida de tiempo del mandante: FALTA ESPACIO PARA FAENA </field>
+        </record>
+        <record id="causatp_internal_ALPINE_10" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_ta" />
+            <field name="name">FALTA O ATRASO DE PERSONAL</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: FALTA O ATRASO DE PERSONAL</field>
+        </record>
+        <record id="causatp_internal_ALPINE_11" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_ta" />
+            <field name="name">FALTA TRASLADO PERSONAL</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: FALTA TRASLADO PERSONAL</field>
+        </record>
+        <record id="causatp_internal_ALPINE_12" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_ta" />
+            <field name="name">INSTALACIÓN TORRE</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: INSTALACIÓN TORRE</field>
+        </record>
+        <record id="causatp_internal_ALPINE_13" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_ta" />
+            <field name="name">MAL CLIMA</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: MAL CLIMA</field>
+        </record>
+        <record id="causatp_internal_ALPINE_14" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_ta" />
+            <field name="name">NO CONSIDERAR</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: NO CONSIDERAR</field>
+        </record>
+        <record id="causatp_internal_ALPINE_15" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_ta" />
+            <field name="name">OTROS</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: OTROS</field>
+        </record>
+        <record id="causatp_internal_ALPINE_16" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_ta" />
+            <field name="name">PROBLEMAS DE ACCESO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: PROBLEMAS DE ACCESO</field>
+        </record>
+        <record id="causatp_internal_ALPINE_17" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_ta" />
+            <field name="name">R6 - EQUIPO DE APOYO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: R6 - EQUIPO DE APOYO</field>
+        </record>
+        <record id="causatp_internal_ALPINE_18" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_ta" />
+            <field name="name">RECTIFICACIÓN LÍNEA DE MADEREO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: RECTIFICACIÓN LÍNEA DE MADEREO</field>
+        </record>
+        <record id="causatp_internal_ALPINE_19" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_ta" />
+            <field name="name">REVISION LINEA DE MADEREO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: REVISION LINEA DE MADEREO</field>
+        </record>
+        <record id="causatp_internal_ALPINE_20" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_ta" />
+            <field name="name">(en blanco)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: (en blanco)</field>
+        </record>
+        <record id="causatp_internal_ASISTENCIA_1" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_assistance" />
+            <field name="name">APOYO EQUIPO DE ASISTENCIA</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: APOYO EQUIPO DE ASISTENCIA</field>
+        </record>
+        <record id="causatp_internal_ASISTENCIA_2" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_assistance" />
+            <field name="name">BAJADA DE PERSONAL -TURNO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: BAJADA DE PERSONAL -TURNO</field>
+        </record>
+        <record id="causatp_internal_ASISTENCIA_3" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_assistance" />
+            <field name="name">CORTE DE CABLE/FALLA EN LA LÍNEA </field>
+            <field name="description">Causa de pérdida de tiempo del mandante: CORTE DE CABLE/FALLA EN LA LÍNEA </field>
+        </record>
+        <record id="causatp_internal_ASISTENCIA_4" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_assistance" />
+            <field name="name">ENGRASE DE EQUIPO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: ENGRASE DE EQUIPO</field>
+        </record>
+        <record id="causatp_internal_ASISTENCIA_5" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_assistance" />
+            <field name="name">EQUIPO REALIZA OTRA ACTIVIDAD</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: EQUIPO REALIZA OTRA ACTIVIDAD</field>
+        </record>
+        <record id="causatp_internal_ASISTENCIA_6" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_assistance" />
+            <field name="name">FALLA EQUIPO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: FALLA EQUIPO</field>
+        </record>
+        <record id="causatp_internal_ASISTENCIA_7" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_assistance" />
+            <field name="name">FALTA O ATRASO DE PERSONAL</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: FALTA O ATRASO DE PERSONAL</field>
+        </record>
+        <record id="causatp_internal_ASISTENCIA_8" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_assistance" />
+            <field name="name">INSTALACION EQUIPO DE ASISTENCIA</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: INSTALACION EQUIPO DE ASISTENCIA</field>
+        </record>
+        <record id="causatp_internal_ASISTENCIA_9" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_assistance" />
+            <field name="name">MAL CLIMA</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: MAL CLIMA</field>
+        </record>
+        <record id="causatp_internal_ASISTENCIA_10" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_assistance" />
+            <field name="name">NO CONSIDERAR</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: NO CONSIDERAR</field>
+        </record>
+        <record id="causatp_internal_ASISTENCIA_11" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_assistance" />
+            <field name="name">OPERADOR SE CAMBIA DE EQUIPO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: OPERADOR SE CAMBIA DE EQUIPO</field>
+        </record>
+        <record id="causatp_internal_ASISTENCIA_12" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_assistance" />
+            <field name="name">OTROS</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: OTROS</field>
+        </record>
+        <record id="causatp_internal_ASISTENCIA_13" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_assistance" />
+            <field name="name">R6 - EQUIPO DE APOYO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: R6 - EQUIPO DE APOYO</field>
+        </record>
+        <record id="causatp_internal_ASISTENCIA_14" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_assistance" />
+            <field name="name">RECTIFICACIÓN LÍNEA DE MADEREO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: RECTIFICACIÓN LÍNEA DE MADEREO</field>
+        </record>
+        <record id="causatp_internal_ASISTENCIA_15" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_assistance" />
+            <field name="name">REVISION DE INSTALACION DE EQUIPO DE ASISTENCIA</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: REVISION DE INSTALACION DE EQUIPO DE ASISTENCIA</field>
+        </record>
+        <record id="causatp_internal_ASISTENCIA_16" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_assistance" />
+            <field name="name">SIN NECESIDAD ASISTENCIA</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: SIN NECESIDAD ASISTENCIA</field>
+        </record>
+        <record id="causatp_internal_ASISTENCIA_17" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_assistance" />
+            <field name="name">(en blanco)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: (en blanco)</field>
+        </record>
+        <record id="causatp_internal_CLASIFICADORA_1" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_sorter" />
+            <field name="name">APOYO EQUIPO DE ASISTENCIA</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: APOYO EQUIPO DE ASISTENCIA</field>
+        </record>
+        <record id="causatp_internal_CLASIFICADORA_2" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_sorter" />
+            <field name="name">ATRASO INICIO O SALIDA TEMPRANA FAENA</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: ATRASO INICIO O SALIDA TEMPRANA FAENA</field>
+        </record>
+        <record id="causatp_internal_CLASIFICADORA_3" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_sorter" />
+            <field name="name">BAJADA DE PERSONAL -TURNO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: BAJADA DE PERSONAL -TURNO</field>
+        </record>
+        <record id="causatp_internal_CLASIFICADORA_4" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_sorter" />
+            <field name="name">CAMBIO DE CADENA O ESPADA</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: CAMBIO DE CADENA O ESPADA</field>
+        </record>
+        <record id="causatp_internal_CLASIFICADORA_5" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_sorter" />
+            <field name="name">CAPACITACIONES O CHARLAS EN TERRENO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: CAPACITACIONES O CHARLAS EN TERRENO</field>
+        </record>
+        <record id="causatp_internal_CLASIFICADORA_6" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_sorter" />
+            <field name="name">CARGA COMBUSTIBLE</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: CARGA COMBUSTIBLE</field>
+        </record>
+        <record id="causatp_internal_CLASIFICADORA_7" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_sorter" />
+            <field name="name">CORTE DE CABLE/FALLA EN LA LÍNEA </field>
+            <field name="description">Causa de pérdida de tiempo del mandante: CORTE DE CABLE/FALLA EN LA LÍNEA </field>
+        </record>
+        <record id="causatp_internal_CLASIFICADORA_8" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_sorter" />
+            <field name="name">DESINSTALACIÓN TORRE</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: DESINSTALACIÓN TORRE</field>
+        </record>
+        <record id="causatp_internal_CLASIFICADORA_9" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_sorter" />
+            <field name="name">DETENIDO POR FALTA DE MADEREO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: DETENIDO POR FALTA DE MADEREO</field>
+        </record>
+        <record id="causatp_internal_CLASIFICADORA_10" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_sorter" />
+            <field name="name">ENGRASE DE EQUIPO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: ENGRASE DE EQUIPO</field>
+        </record>
+        <record id="causatp_internal_CLASIFICADORA_11" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_sorter" />
+            <field name="name">EQUIPO REALIZA OTRA ACTIVIDAD</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: EQUIPO REALIZA OTRA ACTIVIDAD</field>
+        </record>
+        <record id="causatp_internal_CLASIFICADORA_12" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_sorter" />
+            <field name="name">EQUIPO TRABAJA EN OTRO FUNDO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: EQUIPO TRABAJA EN OTRO FUNDO</field>
+        </record>
+        <record id="causatp_internal_CLASIFICADORA_13" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_sorter" />
+            <field name="name">FALLA EQUIPO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: FALLA EQUIPO</field>
+        </record>
+        <record id="causatp_internal_CLASIFICADORA_14" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_sorter" />
+            <field name="name">FALLA EQUIPO ARRUMADO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: FALLA EQUIPO ARRUMADO</field>
+        </record>
+        <record id="causatp_internal_CLASIFICADORA_15" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_sorter" />
+            <field name="name">FALLA EQUIPO CARGUÍO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: FALLA EQUIPO CARGUÍO</field>
+        </record>
+        <record id="causatp_internal_CLASIFICADORA_16" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_sorter" />
+            <field name="name">FALTA COMBUSTIBLE</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: FALTA COMBUSTIBLE</field>
+        </record>
+        <record id="causatp_internal_CLASIFICADORA_17" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_sorter" />
+            <field name="name">FALTA DE TROZADO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: FALTA DE TROZADO</field>
+        </record>
+        <record id="causatp_internal_CLASIFICADORA_18" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_sorter" />
+            <field name="name">FALTA ESPACIO PARA FAENA </field>
+            <field name="description">Causa de pérdida de tiempo del mandante: FALTA ESPACIO PARA FAENA </field>
+        </record>
+        <record id="causatp_internal_CLASIFICADORA_19" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_sorter" />
+            <field name="name">FALTA O ATRASO DE PERSONAL</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: FALTA O ATRASO DE PERSONAL</field>
+        </record>
+        <record id="causatp_internal_CLASIFICADORA_20" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_sorter" />
+            <field name="name">FALTA SHOVELEO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: FALTA SHOVELEO</field>
+        </record>
+        <record id="causatp_internal_CLASIFICADORA_21" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_sorter" />
+            <field name="name">FALTA TRASLADO PERSONAL</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: FALTA TRASLADO PERSONAL</field>
+        </record>
+        <record id="causatp_internal_CLASIFICADORA_22" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_sorter" />
+            <field name="name">INSTALACION EQUIPO DE ASISTENCIA</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: INSTALACION EQUIPO DE ASISTENCIA</field>
+        </record>
+        <record id="causatp_internal_CLASIFICADORA_23" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_sorter" />
+            <field name="name">INSTALACIÓN TORRE</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: INSTALACIÓN TORRE</field>
+        </record>
+        <record id="causatp_internal_CLASIFICADORA_24" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_sorter" />
+            <field name="name">MAL CLIMA</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: MAL CLIMA</field>
+        </record>
+        <record id="causatp_internal_CLASIFICADORA_25" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_sorter" />
+            <field name="name">MEDICIÓN DE LARGO DE TROZOS</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: MEDICIÓN DE LARGO DE TROZOS</field>
+        </record>
+        <record id="causatp_internal_CLASIFICADORA_26" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_sorter" />
+            <field name="name">NO CONSIDERAR</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: NO CONSIDERAR</field>
+        </record>
+        <record id="causatp_internal_CLASIFICADORA_27" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_sorter" />
+            <field name="name">OPERADOR SE CAMBIA DE EQUIPO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: OPERADOR SE CAMBIA DE EQUIPO</field>
+        </record>
+        <record id="causatp_internal_CLASIFICADORA_28" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_sorter" />
+            <field name="name">OTROS</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: OTROS</field>
+        </record>
+        <record id="causatp_internal_CLASIFICADORA_29" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_sorter" />
+            <field name="name">PARALIZACIÓN CLIENTE</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: PARALIZACIÓN CLIENTE</field>
+        </record>
+        <record id="causatp_internal_CLASIFICADORA_30" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_sorter" />
+            <field name="name">PAUSAS ACTIVAS</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: PAUSAS ACTIVAS</field>
+        </record>
+        <record id="causatp_internal_CLASIFICADORA_31" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_sorter" />
+            <field name="name">PROBLEMAS DE ACCESO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: PROBLEMAS DE ACCESO</field>
+        </record>
+        <record id="causatp_internal_CLASIFICADORA_32" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_sorter" />
+            <field name="name">R6 - EQUIPO DE APOYO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: R6 - EQUIPO DE APOYO</field>
+        </record>
+        <record id="causatp_internal_CLASIFICADORA_33" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_sorter" />
+            <field name="name">REVISION LINEA DE MADEREO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: REVISION LINEA DE MADEREO</field>
+        </record>
+        <record id="causatp_internal_CLASIFICADORA_34" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_sorter" />
+            <field name="name">TRASLADO DE EQUIPO A OTRA FAENA</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: TRASLADO DE EQUIPO A OTRA FAENA</field>
+        </record>
+        <record id="causatp_internal_CLASIFICADORA_35" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_sorter" />
+            <field name="name">(en blanco)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: (en blanco)</field>
+        </record>
+        <record id="causatp_internal_FELLER_1" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_feller" />
+            <field name="name">ATRASO INICIO O SALIDA TEMPRANA FAENA</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: ATRASO INICIO O SALIDA TEMPRANA FAENA</field>
+        </record>
+        <record id="causatp_internal_FELLER_2" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_feller" />
+            <field name="name">BAJADA DE PERSONAL -TURNO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: BAJADA DE PERSONAL -TURNO</field>
+        </record>
+        <record id="causatp_internal_FELLER_3" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_feller" />
+            <field name="name">CAPACITACIONES O CHARLAS EN TERRENO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: CAPACITACIONES O CHARLAS EN TERRENO</field>
+        </record>
+        <record id="causatp_internal_FELLER_4" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_feller" />
+            <field name="name">CARGA COMBUSTIBLE</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: CARGA COMBUSTIBLE</field>
+        </record>
+        <record id="causatp_internal_FELLER_5" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_feller" />
+            <field name="name">CONTROL DE PRODUCTIVIDAD</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: CONTROL DE PRODUCTIVIDAD</field>
+        </record>
+        <record id="causatp_internal_FELLER_6" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_feller" />
+            <field name="name">ENGRASE DE EQUIPO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: ENGRASE DE EQUIPO</field>
+        </record>
+        <record id="causatp_internal_FELLER_7" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_feller" />
+            <field name="name">EQUIPO REALIZA OTRA ACTIVIDAD</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: EQUIPO REALIZA OTRA ACTIVIDAD</field>
+        </record>
+        <record id="causatp_internal_FELLER_8" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_feller" />
+            <field name="name">EQUIPO TRABAJA EN OTRO FUNDO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: EQUIPO TRABAJA EN OTRO FUNDO</field>
+        </record>
+        <record id="causatp_internal_FELLER_9" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_feller" />
+            <field name="name">FALLA EQUIPO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: FALLA EQUIPO</field>
+        </record>
+        <record id="causatp_internal_FELLER_10" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_feller" />
+            <field name="name">FALLA EQUIPO CARGUÍO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: FALLA EQUIPO CARGUÍO</field>
+        </record>
+        <record id="causatp_internal_FELLER_11" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_feller" />
+            <field name="name">FALTA COMBUSTIBLE</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: FALTA COMBUSTIBLE</field>
+        </record>
+        <record id="causatp_internal_FELLER_12" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_feller" />
+            <field name="name">FALTA O ATRASO DE PERSONAL</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: FALTA O ATRASO DE PERSONAL</field>
+        </record>
+        <record id="causatp_internal_FELLER_13" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_feller" />
+            <field name="name">MAL CLIMA</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: MAL CLIMA</field>
+        </record>
+        <record id="causatp_internal_FELLER_14" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_feller" />
+            <field name="name">NO CONSIDERAR</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: NO CONSIDERAR</field>
+        </record>
+        <record id="causatp_internal_FELLER_15" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_feller" />
+            <field name="name">OPERADOR SE CAMBIA DE EQUIPO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: OPERADOR SE CAMBIA DE EQUIPO</field>
+        </record>
+        <record id="causatp_internal_FELLER_16" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_feller" />
+            <field name="name">OTROS</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: OTROS</field>
+        </record>
+        <record id="causatp_internal_FELLER_17" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_feller" />
+            <field name="name">PARALIZACIÓN CLIENTE</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: PARALIZACIÓN CLIENTE</field>
+        </record>
+        <record id="causatp_internal_FELLER_18" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_feller" />
+            <field name="name">PAUSAS ACTIVAS</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: PAUSAS ACTIVAS</field>
+        </record>
+        <record id="causatp_internal_FELLER_19" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_feller" />
+            <field name="name">R6 - EQUIPO DE APOYO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: R6 - EQUIPO DE APOYO</field>
+        </record>
+        <record id="causatp_internal_FELLER_20" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_feller" />
+            <field name="name">REVISION DE SECTOR A VOLTEAR</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: REVISION DE SECTOR A VOLTEAR</field>
+        </record>
+        <record id="causatp_internal_FELLER_21" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_feller" />
+            <field name="name">REVISIÓN DE SECTOR A VOLTEAR</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: REVISIÓN DE SECTOR A VOLTEAR</field>
+        </record>
+        <record id="causatp_internal_FELLER_22" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_feller" />
+            <field name="name">TRASLADO DE EQUIPO A OTRA FAENA</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: TRASLADO DE EQUIPO A OTRA FAENA</field>
+        </record>
+        <record id="causatp_internal_FELLER_23" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_feller" />
+            <field name="name">(en blanco)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: (en blanco)</field>
+        </record>
+        <record id="causatp_internal_PROCESADOR_1" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">APOYO EQUIPO DE ASISTENCIA</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: APOYO EQUIPO DE ASISTENCIA</field>
+        </record>
+        <record id="causatp_internal_PROCESADOR_2" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">ATRASO INICIO O SALIDA TEMPRANA FAENA</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: ATRASO INICIO O SALIDA TEMPRANA FAENA</field>
+        </record>
+        <record id="causatp_internal_PROCESADOR_3" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">BAJADA DE PERSONAL -TURNO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: BAJADA DE PERSONAL -TURNO</field>
+        </record>
+        <record id="causatp_internal_PROCESADOR_4" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">BAÑO OPERADOR</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: BAÑO OPERADOR</field>
+        </record>
+        <record id="causatp_internal_PROCESADOR_5" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">CALIBRACION EQUIPO PROCESADOR</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: CALIBRACION EQUIPO PROCESADOR</field>
+        </record>
+        <record id="causatp_internal_PROCESADOR_6" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">CALIBRACIÓN EQUIPO PROCESADOR</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: CALIBRACIÓN EQUIPO PROCESADOR</field>
+        </record>
+        <record id="causatp_internal_PROCESADOR_7" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">CAMBIO DE CADENA O ESPADA</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: CAMBIO DE CADENA O ESPADA</field>
+        </record>
+        <record id="causatp_internal_PROCESADOR_8" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">CAPACITACIONES O CHARLAS EN TERRENO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: CAPACITACIONES O CHARLAS EN TERRENO</field>
+        </record>
+        <record id="causatp_internal_PROCESADOR_9" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">CARGA COMBUSTIBLE</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: CARGA COMBUSTIBLE</field>
+        </record>
+        <record id="causatp_internal_PROCESADOR_10" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">CARGA DE ACEITE</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: CARGA DE ACEITE</field>
+        </record>
+        <record id="causatp_internal_PROCESADOR_11" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">CONTROL DE PRODUCTIVIDAD</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: CONTROL DE PRODUCTIVIDAD</field>
+        </record>
+        <record id="causatp_internal_PROCESADOR_12" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">CORTE DE CABLE/FALLA EN LA LÍNEA </field>
+            <field name="description">Causa de pérdida de tiempo del mandante: CORTE DE CABLE/FALLA EN LA LÍNEA </field>
+        </record>
+        <record id="causatp_internal_PROCESADOR_13" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">DETENIDO POR FALTA DE MADEREO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: DETENIDO POR FALTA DE MADEREO</field>
+        </record>
+        <record id="causatp_internal_PROCESADOR_14" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">ENGRASE DE EQUIPO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: ENGRASE DE EQUIPO</field>
+        </record>
+        <record id="causatp_internal_PROCESADOR_15" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">EQUIPO REALIZA OTRA ACTIVIDAD</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: EQUIPO REALIZA OTRA ACTIVIDAD</field>
+        </record>
+        <record id="causatp_internal_PROCESADOR_16" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">EQUIPO TRABAJA EN OTRO FUNDO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: EQUIPO TRABAJA EN OTRO FUNDO</field>
+        </record>
+        <record id="causatp_internal_PROCESADOR_17" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">FALLA EQUIPO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: FALLA EQUIPO</field>
+        </record>
+        <record id="causatp_internal_PROCESADOR_18" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">FALLA EQUIPO CARGUÍO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: FALLA EQUIPO CARGUÍO</field>
+        </record>
+        <record id="causatp_internal_PROCESADOR_19" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">FALTA COMBUSTIBLE</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: FALTA COMBUSTIBLE</field>
+        </record>
+        <record id="causatp_internal_PROCESADOR_20" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">FALTA DE TROZADO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: FALTA DE TROZADO</field>
+        </record>
+        <record id="causatp_internal_PROCESADOR_21" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">FALTA ESPACIO PARA FAENA </field>
+            <field name="description">Causa de pérdida de tiempo del mandante: FALTA ESPACIO PARA FAENA </field>
+        </record>
+        <record id="causatp_internal_PROCESADOR_22" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">FALTA O ATRASO DE PERSONAL</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: FALTA O ATRASO DE PERSONAL</field>
+        </record>
+        <record id="causatp_internal_PROCESADOR_23" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">FALTA SHOVELEO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: FALTA SHOVELEO</field>
+        </record>
+        <record id="causatp_internal_PROCESADOR_24" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">FALTA TRASLADO PERSONAL</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: FALTA TRASLADO PERSONAL</field>
+        </record>
+        <record id="causatp_internal_PROCESADOR_25" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">GENERACION DE EQUIPO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: GENERACION DE EQUIPO</field>
+        </record>
+        <record id="causatp_internal_PROCESADOR_26" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">INSTALACION EQUIPO DE ASISTENCIA</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: INSTALACION EQUIPO DE ASISTENCIA</field>
+        </record>
+        <record id="causatp_internal_PROCESADOR_27" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">MAL CLIMA</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: MAL CLIMA</field>
+        </record>
+        <record id="causatp_internal_PROCESADOR_28" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">MEDICIÓN DE LARGO DE TROZOS</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: MEDICIÓN DE LARGO DE TROZOS</field>
+        </record>
+        <record id="causatp_internal_PROCESADOR_29" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">NO CONSIDERAR</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: NO CONSIDERAR</field>
+        </record>
+        <record id="causatp_internal_PROCESADOR_30" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">OPERADOR SE CAMBIA DE EQUIPO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: OPERADOR SE CAMBIA DE EQUIPO</field>
+        </record>
+        <record id="causatp_internal_PROCESADOR_31" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">OTROS</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: OTROS</field>
+        </record>
+        <record id="causatp_internal_PROCESADOR_32" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">PARALIZACIÓN CLIENTE</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: PARALIZACIÓN CLIENTE</field>
+        </record>
+        <record id="causatp_internal_PROCESADOR_33" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">PAUSAS ACTIVAS</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: PAUSAS ACTIVAS</field>
+        </record>
+        <record id="causatp_internal_PROCESADOR_34" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">PROBLEMAS DE ACCESO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: PROBLEMAS DE ACCESO</field>
+        </record>
+        <record id="causatp_internal_PROCESADOR_35" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">PUESTA EN MARCHA</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: PUESTA EN MARCHA</field>
+        </record>
+        <record id="causatp_internal_PROCESADOR_36" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">R6 - EQUIPO DE APOYO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: R6 - EQUIPO DE APOYO</field>
+        </record>
+        <record id="causatp_internal_PROCESADOR_37" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">TRASLADO DE EQUIPO A OTRA FAENA</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: TRASLADO DE EQUIPO A OTRA FAENA</field>
+        </record>
+        <record id="causatp_internal_PROCESADOR_38" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">(en blanco)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: (en blanco)</field>
+        </record>
+        <record id="causatp_internal_SHOVEL_1" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_shovel" />
+            <field name="name">APOYO EQUIPO DE ASISTENCIA</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: APOYO EQUIPO DE ASISTENCIA</field>
+        </record>
+        <record id="causatp_internal_SHOVEL_2" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_shovel" />
+            <field name="name">ATRASO INICIO O SALIDA TEMPRANA FAENA</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: ATRASO INICIO O SALIDA TEMPRANA FAENA</field>
+        </record>
+        <record id="causatp_internal_SHOVEL_3" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_shovel" />
+            <field name="name">BAJADA DE PERSONAL -TURNO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: BAJADA DE PERSONAL -TURNO</field>
+        </record>
+        <record id="causatp_internal_SHOVEL_4" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_shovel" />
+            <field name="name">CAPACITACIONES O CHARLAS EN TERRENO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: CAPACITACIONES O CHARLAS EN TERRENO</field>
+        </record>
+        <record id="causatp_internal_SHOVEL_5" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_shovel" />
+            <field name="name">CORTE DE CABLE/FALLA EN LA LÍNEA </field>
+            <field name="description">Causa de pérdida de tiempo del mandante: CORTE DE CABLE/FALLA EN LA LÍNEA </field>
+        </record>
+        <record id="causatp_internal_SHOVEL_6" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_shovel" />
+            <field name="name">ENGRASE DE EQUIPO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: ENGRASE DE EQUIPO</field>
+        </record>
+        <record id="causatp_internal_SHOVEL_7" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_shovel" />
+            <field name="name">EQUIPO REALIZA OTRA ACTIVIDAD</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: EQUIPO REALIZA OTRA ACTIVIDAD</field>
+        </record>
+        <record id="causatp_internal_SHOVEL_8" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_shovel" />
+            <field name="name">EQUIPO TRABAJA EN OTRO FUNDO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: EQUIPO TRABAJA EN OTRO FUNDO</field>
+        </record>
+        <record id="causatp_internal_SHOVEL_9" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_shovel" />
+            <field name="name">ESPERA COMBATE DE INCENDIO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: ESPERA COMBATE DE INCENDIO</field>
+        </record>
+        <record id="causatp_internal_SHOVEL_10" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_shovel" />
+            <field name="name">FALLA EQUIPO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: FALLA EQUIPO</field>
+        </record>
+        <record id="causatp_internal_SHOVEL_11" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_shovel" />
+            <field name="name">FALLA EQUIPO ARRUMADO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: FALLA EQUIPO ARRUMADO</field>
+        </record>
+        <record id="causatp_internal_SHOVEL_12" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_shovel" />
+            <field name="name">FALLA EQUIPO CARGUÍO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: FALLA EQUIPO CARGUÍO</field>
+        </record>
+        <record id="causatp_internal_SHOVEL_13" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_shovel" />
+            <field name="name">FALTA COMBUSTIBLE</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: FALTA COMBUSTIBLE</field>
+        </record>
+        <record id="causatp_internal_SHOVEL_14" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_shovel" />
+            <field name="name">FALTA DE TROZADO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: FALTA DE TROZADO</field>
+        </record>
+        <record id="causatp_internal_SHOVEL_15" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_shovel" />
+            <field name="name">FALTA EQUIPO DE ASISTENCIA</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: FALTA EQUIPO DE ASISTENCIA</field>
+        </record>
+        <record id="causatp_internal_SHOVEL_16" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_shovel" />
+            <field name="name">FALTA O ATRASO DE PERSONAL</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: FALTA O ATRASO DE PERSONAL</field>
+        </record>
+        <record id="causatp_internal_SHOVEL_17" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_shovel" />
+            <field name="name">FALTA SHOVELEO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: FALTA SHOVELEO</field>
+        </record>
+        <record id="causatp_internal_SHOVEL_18" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_shovel" />
+            <field name="name">INSTALACION EQUIPO DE ASISTENCIA</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: INSTALACION EQUIPO DE ASISTENCIA</field>
+        </record>
+        <record id="causatp_internal_SHOVEL_19" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_shovel" />
+            <field name="name">MAL CLIMA</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: MAL CLIMA</field>
+        </record>
+        <record id="causatp_internal_SHOVEL_20" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_shovel" />
+            <field name="name">NO CONSIDERAR</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: NO CONSIDERAR</field>
+        </record>
+        <record id="causatp_internal_SHOVEL_21" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_shovel" />
+            <field name="name">OPERADOR SE CAMBIA DE EQUIPO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: OPERADOR SE CAMBIA DE EQUIPO</field>
+        </record>
+        <record id="causatp_internal_SHOVEL_22" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_shovel" />
+            <field name="name">OTROS</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: OTROS</field>
+        </record>
+        <record id="causatp_internal_SHOVEL_23" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_shovel" />
+            <field name="name">PARALIZACIÓN CLIENTE</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: PARALIZACIÓN CLIENTE</field>
+        </record>
+        <record id="causatp_internal_SHOVEL_24" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_shovel" />
+            <field name="name">PAUSAS ACTIVAS</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: PAUSAS ACTIVAS</field>
+        </record>
+        <record id="causatp_internal_SHOVEL_25" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_shovel" />
+            <field name="name">PROBLEMAS DE ACCESO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: PROBLEMAS DE ACCESO</field>
+        </record>
+        <record id="causatp_internal_SHOVEL_26" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_shovel" />
+            <field name="name">R6 - EQUIPO DE APOYO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: R6 - EQUIPO DE APOYO</field>
+        </record>
+        <record id="causatp_internal_SHOVEL_27" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_shovel" />
+            <field name="name">REVISION DE INSTALACION DE EQUIPO DE ASISTENCIA</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: REVISION DE INSTALACION DE EQUIPO DE ASISTENCIA</field>
+        </record>
+        <record id="causatp_internal_SHOVEL_28" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_shovel" />
+            <field name="name">REVISION DE SECTOR A VOLTEAR</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: REVISION DE SECTOR A VOLTEAR</field>
+        </record>
+        <record id="causatp_internal_SHOVEL_29" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_shovel" />
+            <field name="name">REVISION LINEA DE MADEREO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: REVISION LINEA DE MADEREO</field>
+        </record>
+        <record id="causatp_internal_SHOVEL_30" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_shovel" />
+            <field name="name">SIN NECESIDAD ASISTENCIA</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: SIN NECESIDAD ASISTENCIA</field>
+        </record>
+        <record id="causatp_internal_SHOVEL_31" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_shovel" />
+            <field name="name">(en blanco)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: (en blanco)</field>
+        </record>
+        <record id="causatp_internal_SKIDDER_1" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_skidder" />
+            <field name="name">APOYO EQUIPO DE ASISTENCIA</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: APOYO EQUIPO DE ASISTENCIA</field>
+        </record>
+        <record id="causatp_internal_SKIDDER_2" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_skidder" />
+            <field name="name">ATRASO INICIO O SALIDA TEMPRANA FAENA</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: ATRASO INICIO O SALIDA TEMPRANA FAENA</field>
+        </record>
+        <record id="causatp_internal_SKIDDER_3" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_skidder" />
+            <field name="name">BAJADA DE PERSONAL -TURNO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: BAJADA DE PERSONAL -TURNO</field>
+        </record>
+        <record id="causatp_internal_SKIDDER_4" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_skidder" />
+            <field name="name">CAPACITACIONES O CHARLAS EN TERRENO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: CAPACITACIONES O CHARLAS EN TERRENO</field>
+        </record>
+        <record id="causatp_internal_SKIDDER_5" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_skidder" />
+            <field name="name">CARGA COMBUSTIBLE</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: CARGA COMBUSTIBLE</field>
+        </record>
+        <record id="causatp_internal_SKIDDER_6" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_skidder" />
+            <field name="name">CARGA DE ACEITE</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: CARGA DE ACEITE</field>
+        </record>
+        <record id="causatp_internal_SKIDDER_7" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_skidder" />
+            <field name="name">DETENIDO POR FALTA DE MADEREO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: DETENIDO POR FALTA DE MADEREO</field>
+        </record>
+        <record id="causatp_internal_SKIDDER_8" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_skidder" />
+            <field name="name">ENGRASE DE EQUIPO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: ENGRASE DE EQUIPO</field>
+        </record>
+        <record id="causatp_internal_SKIDDER_9" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_skidder" />
+            <field name="name">EQUIPO REALIZA OTRA ACTIVIDAD</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: EQUIPO REALIZA OTRA ACTIVIDAD</field>
+        </record>
+        <record id="causatp_internal_SKIDDER_10" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_skidder" />
+            <field name="name">EQUIPO TRABAJA EN OTRO FUNDO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: EQUIPO TRABAJA EN OTRO FUNDO</field>
+        </record>
+        <record id="causatp_internal_SKIDDER_11" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_skidder" />
+            <field name="name">ESPERA COMBATE DE INCENDIO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: ESPERA COMBATE DE INCENDIO</field>
+        </record>
+        <record id="causatp_internal_SKIDDER_12" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_skidder" />
+            <field name="name">FALLA EQUIPO ARRUMADO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: FALLA EQUIPO ARRUMADO</field>
+        </record>
+        <record id="causatp_internal_SKIDDER_13" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_skidder" />
+            <field name="name">FALLA EQUIPO CARGUÍO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: FALLA EQUIPO CARGUÍO</field>
+        </record>
+        <record id="causatp_internal_SKIDDER_14" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_skidder" />
+            <field name="name">FALTA COMBUSTIBLE</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: FALTA COMBUSTIBLE</field>
+        </record>
+        <record id="causatp_internal_SKIDDER_15" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_skidder" />
+            <field name="name">FALTA EQUIPO DE ASISTENCIA</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: FALTA EQUIPO DE ASISTENCIA</field>
+        </record>
+        <record id="causatp_internal_SKIDDER_16" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_skidder" />
+            <field name="name">FALTA ESPACIO PARA FAENA </field>
+            <field name="description">Causa de pérdida de tiempo del mandante: FALTA ESPACIO PARA FAENA </field>
+        </record>
+        <record id="causatp_internal_SKIDDER_17" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_skidder" />
+            <field name="name">FALTA TRASLADO PERSONAL</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: FALTA TRASLADO PERSONAL</field>
+        </record>
+        <record id="causatp_internal_SKIDDER_18" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_skidder" />
+            <field name="name">INSTALACION EQUIPO DE ASISTENCIA</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: INSTALACION EQUIPO DE ASISTENCIA</field>
+        </record>
+        <record id="causatp_internal_SKIDDER_19" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_skidder" />
+            <field name="name">LIMPIEZA DE CANCHA</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: LIMPIEZA DE CANCHA</field>
+        </record>
+        <record id="causatp_internal_SKIDDER_20" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_skidder" />
+            <field name="name">MAL CLIMA</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: MAL CLIMA</field>
+        </record>
+        <record id="causatp_internal_SKIDDER_21" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_skidder" />
+            <field name="name">MEDICIÓN DE LARGO DE TROZOS</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: MEDICIÓN DE LARGO DE TROZOS</field>
+        </record>
+        <record id="causatp_internal_SKIDDER_22" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_skidder" />
+            <field name="name">NO CONSIDERAR</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: NO CONSIDERAR</field>
+        </record>
+        <record id="causatp_internal_SKIDDER_23" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_skidder" />
+            <field name="name">OPERADOR SE CAMBIA DE EQUIPO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: OPERADOR SE CAMBIA DE EQUIPO</field>
+        </record>
+        <record id="causatp_internal_SKIDDER_24" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_skidder" />
+            <field name="name">OTROS</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: OTROS</field>
+        </record>
+        <record id="causatp_internal_SKIDDER_25" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_skidder" />
+            <field name="name">PARALIZACIÓN CLIENTE</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: PARALIZACIÓN CLIENTE</field>
+        </record>
+        <record id="causatp_internal_SKIDDER_26" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_skidder" />
+            <field name="name">PAUSAS ACTIVAS</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: PAUSAS ACTIVAS</field>
+        </record>
+        <record id="causatp_internal_SKIDDER_27" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_skidder" />
+            <field name="name">PROBLEMAS DE ACCESO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: PROBLEMAS DE ACCESO</field>
+        </record>
+        <record id="causatp_internal_SKIDDER_28" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_skidder" />
+            <field name="name">R6 - EQUIPO DE APOYO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: R6 - EQUIPO DE APOYO</field>
+        </record>
+        <record id="causatp_internal_SKIDDER_29" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_skidder" />
+            <field name="name">REVISION DE INSTALACION DE EQUIPO DE ASISTENCIA</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: REVISION DE INSTALACION DE EQUIPO DE ASISTENCIA</field>
+        </record>
+        <record id="causatp_internal_SKIDDER_30" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_skidder" />
+            <field name="name">REVISION DE SECTOR A VOLTEAR</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: REVISION DE SECTOR A VOLTEAR</field>
+        </record>
+        <record id="causatp_internal_SKIDDER_31" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_skidder" />
+            <field name="name">REVISION LINEA DE MADEREO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: REVISION LINEA DE MADEREO</field>
+        </record>
+        <record id="causatp_internal_SKIDDER_32" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_skidder" />
+            <field name="name">REVISIÓN LINEA DE MADEREO</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: REVISIÓN LINEA DE MADEREO</field>
+        </record>
+        <record id="causatp_internal_SKIDDER_33" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_skidder" />
+            <field name="name">TRASLADO DE EQUIPO A OTRA FAENA</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: TRASLADO DE EQUIPO A OTRA FAENA</field>
+        </record>
+        <record id="causatp_internal_SKIDDER_34" model="contract.operations.causeslt">
+            <field name="origin">internal</field>
+            <field name="family_id" ref="asset_family_skidder" />
+            <field name="name">(en blanco)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: (en blanco)</field>
+        </record>
+        <record id="causatp_client_PROCESADOR_1" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">F1(MONITOREO Y/O PARALIZACIÓN FORMIN)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F1(MONITOREO Y/O PARALIZACIÓN FORMIN)</field>
+        </record>
+        <record id="causatp_client_PROCESADOR_2" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">F2(DETENIDO POR PASO DE VEHÍCULOS)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F2(DETENIDO POR PASO DE VEHÍCULOS)</field>
+        </record>
+        <record id="causatp_client_PROCESADOR_3" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">F3(DETENIDO POR CARGUÍO DE CAMIONES)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F3(DETENIDO POR CARGUÍO DE CAMIONES)</field>
+        </record>
+        <record id="causatp_client_PROCESADOR_4" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">F4(CLIMA Y/O INCENDIO DETIENE OPERACIÓN)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F4(CLIMA Y/O INCENDIO DETIENE OPERACIÓN)</field>
+        </record>
+        <record id="causatp_client_PROCESADOR_5" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">F5(ATOCHAMIENTO EN CANCHA)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F5(ATOCHAMIENTO EN CANCHA)</field>
+        </record>
+        <record id="causatp_client_PROCESADOR_6" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">F6(ATRASO INICIO O SALIDA TEMPRANA DE FAENA)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F6(ATRASO INICIO O SALIDA TEMPRANA DE FAENA)</field>
+        </record>
+        <record id="causatp_client_PROCESADOR_7" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">F7(CONTROL A FAENA)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F7(CONTROL A FAENA)</field>
+        </record>
+        <record id="causatp_client_PROCESADOR_8" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">F8(FALTA DE PERSONAL)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F8(FALTA DE PERSONAL)</field>
+        </record>
+        <record id="causatp_client_PROCESADOR_9" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">F9(CHARLA, CAPACITACIONES O REUNIONES)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F9(CHARLA, CAPACITACIONES O REUNIONES)</field>
+        </record>
+        <record id="causatp_client_PROCESADOR_10" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">F10(PUESTA EN MARCHA )</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F10(PUESTA EN MARCHA )</field>
+        </record>
+        <record id="causatp_client_PROCESADOR_11" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">F11(BAÑO OPERADOR)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F11(BAÑO OPERADOR)</field>
+        </record>
+        <record id="causatp_client_PROCESADOR_12" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">F12(MANTENCIÓN PROGRAMADA)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F12(MANTENCIÓN PROGRAMADA)</field>
+        </record>
+        <record id="causatp_client_PROCESADOR_13" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">F13(CARGA COMBUSTIBLE O ACEITE)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F13(CARGA COMBUSTIBLE O ACEITE)</field>
+        </record>
+        <record id="causatp_client_PROCESADOR_14" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">F14(FALLA EQUIPO)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F14(FALLA EQUIPO)</field>
+        </record>
+        <record id="causatp_client_PROCESADOR_15" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">F15(TRASLADO DE FUNDO)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F15(TRASLADO DE FUNDO)</field>
+        </record>
+        <record id="causatp_client_PROCESADOR_16" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">F16(DETENIDO POR FALTA DE VOLTEO)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F16(DETENIDO POR FALTA DE VOLTEO)</field>
+        </record>
+        <record id="causatp_client_PROCESADOR_17" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">F17(DETENIDO POR FALTA DE ORDENAMIENTO )</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F17(DETENIDO POR FALTA DE ORDENAMIENTO )</field>
+        </record>
+        <record id="causatp_client_PROCESADOR_18" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">F24(TRASLADO DENTRO FAENA)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F24(TRASLADO DENTRO FAENA)</field>
+        </record>
+        <record id="causatp_client_PROCESADOR_19" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">F25(DETENIDO POR FALTA DE MADEREO)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F25(DETENIDO POR FALTA DE MADEREO)</field>
+        </record>
+        <record id="causatp_client_PROCESADOR_20" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">F26(CAMBIO DE CADENA O ESPADA)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F26(CAMBIO DE CADENA O ESPADA)</field>
+        </record>
+        <record id="causatp_client_PROCESADOR_21" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">F27(MEDICIÓN DE LARGO DE TROZOS)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F27(MEDICIÓN DE LARGO DE TROZOS)</field>
+        </record>
+        <record id="causatp_client_PROCESADOR_22" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_processor" />
+            <field name="name">F99(OTROS)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F99(OTROS)</field>
+        </record>
+        <record id="causatp_client_SKIDDER_1" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_skidder" />
+            <field name="name">F1(MONITOREO Y/O PARALIZACIÓN FORMIN)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F1(MONITOREO Y/O PARALIZACIÓN FORMIN)</field>
+        </record>
+        <record id="causatp_client_SKIDDER_2" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_skidder" />
+            <field name="name">F2(DETENIDO POR PASO DE VEHÍCULOS)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F2(DETENIDO POR PASO DE VEHÍCULOS)</field>
+        </record>
+        <record id="causatp_client_SKIDDER_3" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_skidder" />
+            <field name="name">F3(DETENIDO POR CARGUÍO DE CAMIONES)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F3(DETENIDO POR CARGUÍO DE CAMIONES)</field>
+        </record>
+        <record id="causatp_client_SKIDDER_4" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_skidder" />
+            <field name="name">F4(CLIMA Y/O INCENDIO DETIENE OPERACIÓN)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F4(CLIMA Y/O INCENDIO DETIENE OPERACIÓN)</field>
+        </record>
+        <record id="causatp_client_SKIDDER_5" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_skidder" />
+            <field name="name">F5(ATOCHAMIENTO EN CANCHA)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F5(ATOCHAMIENTO EN CANCHA)</field>
+        </record>
+        <record id="causatp_client_SKIDDER_6" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_skidder" />
+            <field name="name">F6(ATRASO INICIO O SALIDA TEMPRANA DE FAENA)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F6(ATRASO INICIO O SALIDA TEMPRANA DE FAENA)</field>
+        </record>
+        <record id="causatp_client_SKIDDER_7" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_skidder" />
+            <field name="name">F7(CONTROL A FAENA)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F7(CONTROL A FAENA)</field>
+        </record>
+        <record id="causatp_client_SKIDDER_8" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_skidder" />
+            <field name="name">F8(FALTA DE PERSONAL)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F8(FALTA DE PERSONAL)</field>
+        </record>
+        <record id="causatp_client_SKIDDER_9" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_skidder" />
+            <field name="name">F9(CHARLA, CAPACITACIONES O REUNIONES)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F9(CHARLA, CAPACITACIONES O REUNIONES)</field>
+        </record>
+        <record id="causatp_client_SKIDDER_10" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_skidder" />
+            <field name="name">F10(PUESTA EN MARCHA )</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F10(PUESTA EN MARCHA )</field>
+        </record>
+        <record id="causatp_client_SKIDDER_11" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_skidder" />
+            <field name="name">F11(BAÑO OPERADOR)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F11(BAÑO OPERADOR)</field>
+        </record>
+        <record id="causatp_client_SKIDDER_12" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_skidder" />
+            <field name="name">F12(MANTENCIÓN PROGRAMADA)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F12(MANTENCIÓN PROGRAMADA)</field>
+        </record>
+        <record id="causatp_client_SKIDDER_13" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_skidder" />
+            <field name="name">F13(CARGA COMBUSTIBLE O ACEITE)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F13(CARGA COMBUSTIBLE O ACEITE)</field>
+        </record>
+        <record id="causatp_client_SKIDDER_14" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_skidder" />
+            <field name="name">F14(FALLA EQUIPO)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F14(FALLA EQUIPO)</field>
+        </record>
+        <record id="causatp_client_SKIDDER_15" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_skidder" />
+            <field name="name">F15(TRASLADO DE FUNDO)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F15(TRASLADO DE FUNDO)</field>
+        </record>
+        <record id="causatp_client_SKIDDER_16" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_skidder" />
+            <field name="name">F16(DETENIDO POR FALTA DE VOLTEO)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F16(DETENIDO POR FALTA DE VOLTEO)</field>
+        </record>
+        <record id="causatp_client_SKIDDER_17" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_skidder" />
+            <field name="name">F17(DETENIDO POR FALTA DE ORDENAMIENTO )</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F17(DETENIDO POR FALTA DE ORDENAMIENTO )</field>
+        </record>
+        <record id="causatp_client_SKIDDER_18" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_skidder" />
+            <field name="name">F23(FALLA Y COLCHADO DE CABLE)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F23(FALLA Y COLCHADO DE CABLE)</field>
+        </record>
+        <record id="causatp_client_SKIDDER_19" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_skidder" />
+            <field name="name">F24(TRASLADO DENTRO FAENA)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F24(TRASLADO DENTRO FAENA)</field>
+        </record>
+        <record id="causatp_client_SKIDDER_20" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_skidder" />
+            <field name="name">F31(HABILITACIÓN DE HUELLAS DE MADEREO Y/O CANCHA)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F31(HABILITACIÓN DE HUELLAS DE MADEREO Y/O CANCHA)</field>
+        </record>
+        <record id="causatp_client_SKIDDER_21" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_skidder" />
+            <field name="name">F99(OTROS)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F99(OTROS)</field>
+        </record>
+        <record id="causatp_client_TORRE (ALPINE)_1" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_ta" />
+            <field name="name">F1(MONITOREO Y/O PARALIZACIÓN FORMIN)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F1(MONITOREO Y/O PARALIZACIÓN FORMIN)</field>
+        </record>
+        <record id="causatp_client_TORRE (ALPINE)_2" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_ta" />
+            <field name="name">F2(DETENIDO POR PASO DE VEHÍCULOS)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F2(DETENIDO POR PASO DE VEHÍCULOS)</field>
+        </record>
+        <record id="causatp_client_TORRE (ALPINE)_3" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_ta" />
+            <field name="name">F3(DETENIDO POR CARGUÍO DE CAMIONES)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F3(DETENIDO POR CARGUÍO DE CAMIONES)</field>
+        </record>
+        <record id="causatp_client_TORRE (ALPINE)_4" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_ta" />
+            <field name="name">F4(CLIMA Y/O INCENDIO DETIENE OPERACIÓN)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F4(CLIMA Y/O INCENDIO DETIENE OPERACIÓN)</field>
+        </record>
+        <record id="causatp_client_TORRE (ALPINE)_5" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_ta" />
+            <field name="name">F5(ATOCHAMIENTO EN CANCHA)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F5(ATOCHAMIENTO EN CANCHA)</field>
+        </record>
+        <record id="causatp_client_TORRE (ALPINE)_6" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_ta" />
+            <field name="name">F6(ATRASO INICIO O SALIDA TEMPRANA DE FAENA)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F6(ATRASO INICIO O SALIDA TEMPRANA DE FAENA)</field>
+        </record>
+        <record id="causatp_client_TORRE (ALPINE)_7" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_ta" />
+            <field name="name">F7(CONTROL A FAENA)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F7(CONTROL A FAENA)</field>
+        </record>
+        <record id="causatp_client_TORRE (ALPINE)_8" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_ta" />
+            <field name="name">F8(FALTA DE PERSONAL)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F8(FALTA DE PERSONAL)</field>
+        </record>
+        <record id="causatp_client_TORRE (ALPINE)_9" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_ta" />
+            <field name="name">F9(CHARLA, CAPACITACIONES O REUNIONES)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F9(CHARLA, CAPACITACIONES O REUNIONES)</field>
+        </record>
+        <record id="causatp_client_TORRE (ALPINE)_10" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_ta" />
+            <field name="name">F10(PUESTA EN MARCHA )</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F10(PUESTA EN MARCHA )</field>
+        </record>
+        <record id="causatp_client_TORRE (ALPINE)_11" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_ta" />
+            <field name="name">F11(BAÑO OPERADOR)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F11(BAÑO OPERADOR)</field>
+        </record>
+        <record id="causatp_client_TORRE (ALPINE)_12" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_ta" />
+            <field name="name">F12(MANTENCIÓN PROGRAMADA)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F12(MANTENCIÓN PROGRAMADA)</field>
+        </record>
+        <record id="causatp_client_TORRE (ALPINE)_13" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_ta" />
+            <field name="name">F13(CARGA COMBUSTIBLE O ACEITE)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F13(CARGA COMBUSTIBLE O ACEITE)</field>
+        </record>
+        <record id="causatp_client_TORRE (ALPINE)_14" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_ta" />
+            <field name="name">F14(FALLA EQUIPO)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F14(FALLA EQUIPO)</field>
+        </record>
+        <record id="causatp_client_TORRE (ALPINE)_15" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_ta" />
+            <field name="name">F15(TRASLADO DE FUNDO)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F15(TRASLADO DE FUNDO)</field>
+        </record>
+        <record id="causatp_client_TORRE (ALPINE)_16" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_ta" />
+            <field name="name">F16(DETENIDO POR FALTA DE VOLTEO)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F16(DETENIDO POR FALTA DE VOLTEO)</field>
+        </record>
+        <record id="causatp_client_TORRE (ALPINE)_17" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_ta" />
+            <field name="name">F17(DETENIDO POR FALTA DE ORDENAMIENTO )</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F17(DETENIDO POR FALTA DE ORDENAMIENTO )</field>
+        </record>
+        <record id="causatp_client_TORRE (ALPINE)_18" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_ta" />
+            <field name="name">F18(REVISIÓN DE INSTALACIÓN)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F18(REVISIÓN DE INSTALACIÓN)</field>
+        </record>
+        <record id="causatp_client_TORRE (ALPINE)_19" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_ta" />
+            <field name="name">F19(FALLA DE CARRO)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F19(FALLA DE CARRO)</field>
+        </record>
+        <record id="causatp_client_TORRE (ALPINE)_20" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_ta" />
+            <field name="name">F20(ARREGLAR EL SOPORTE INTERMEDIO)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F20(ARREGLAR EL SOPORTE INTERMEDIO)</field>
+        </record>
+        <record id="causatp_client_TORRE (ALPINE)_21" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_ta" />
+            <field name="name">F21(ARREGLAR ANCLAJE DE COLA)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F21(ARREGLAR ANCLAJE DE COLA)</field>
+        </record>
+        <record id="causatp_client_TORRE (ALPINE)_22" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_ta" />
+            <field name="name">F22(ATOCHAMIENTO EN LA VÍA DE SACA)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F22(ATOCHAMIENTO EN LA VÍA DE SACA)</field>
+        </record>
+        <record id="causatp_client_TORRE (ALPINE)_23" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_ta" />
+            <field name="name">F23(FALLA Y/O COLCHADO DE CABLE)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F23(FALLA Y/O COLCHADO DE CABLE)</field>
+        </record>
+        <record id="causatp_client_TORRE (ALPINE)_24" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_ta" />
+            <field name="name">F26(TRASLADO DE FAENA)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F26(TRASLADO DE FAENA)</field>
+        </record>
+        <record id="causatp_client_TORRE (ALPINE)_25" model="contract.operations.causeslt">
+            <field name="origin">client</field>
+            <field name="family_id" ref="asset_family_ta" />
+            <field name="name">F99(OTROS)</field>
+            <field name="description">Causa de pérdida de tiempo del mandante: F99(OTROS)</field>
+        </record>
+    </data>
+</odoo>

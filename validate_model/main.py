@@ -1,7 +1,7 @@
 import os
 import ast
 import psycopg2
-from dotenv import load_dotenv
+from dotenv import load_dotenv, find_dotenv
 from colorama import init, Fore, Style
 from os import system
 
@@ -9,6 +9,13 @@ system("clear")
 
 # Inicializa colorama
 init(autoreset=True)
+
+
+dotenv_path = find_dotenv()
+load_dotenv(dotenv_path)
+
+# Imprime la ruta del archivo .env encontrado
+print(f"Archivo .env encontrado en: {dotenv_path}")
 
 class ModelFieldVisitor(ast.NodeVisitor):
     def __init__(self):

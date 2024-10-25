@@ -1,0 +1,560 @@
+<Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1" snapshotTime="2024-08-21T14:50:24Z" xmlns="http://standards.iso.org/iso/15143/-3">
+    <Links>
+        <rel>self</rel>
+        <href>https://tele15143.tigercat.com/TigercatISO15143API/Fleet/1</href>
+    </Links>
+    <Equipment>
+        <EquipmentHeader>
+            <UnitInstallDateTime>2016-05-12T00:00:00Z</UnitInstallDateTime>
+            <OEMName>Tigercat</OEMName>
+            <Model>635E</Model>
+            <EquipmentID>6352058</EquipmentID>
+            <SerialNumber>6352058</SerialNumber>
+            <PIN>9</PIN>
+        </EquipmentHeader>
+        <Location datetime="2019-09-10T10:57:11Z">
+            <Latitude>-40.220417</Latitude>
+            <Longitude>-73.258183</Longitude>
+        </Location>
+        <CumulativeOperatingHours datetime="2019-09-09T23:14:26Z">
+            <Hour>7468</Hour>
+        </CumulativeOperatingHours>
+        <EngineStatus datetime="2019-09-10T10:52:59Z">
+            <EngineNumber>N/A</EngineNumber>
+            <Running>true</Running>
+        </EngineStatus>
+        <FuelRemaining datetime="2019-09-10T10:52:59Z">
+            <Percent>90.4</Percent>
+            <FuelTankCapacityUnits>litre</FuelTankCapacityUnits>
+            <FuelTankCapacity>305</FuelTankCapacity>
+        </FuelRemaining>
+    </Equipment>
+    <Equipment>
+        <EquipmentHeader>
+            <UnitInstallDateTime>2016-05-17T00:00:00Z</UnitInstallDateTime>
+            <OEMName>Tigercat</OEMName>
+            <Model>635E</Model>
+            <EquipmentID>Isidora-6352060-old</EquipmentID>
+            <SerialNumber>00000000</SerialNumber>
+            <PIN>11</PIN>
+        </EquipmentHeader>
+        <Location datetime="2018-03-21T17:00:35Z">
+            <Latitude>-38.474433</Latitude>
+            <Longitude>-73.4085</Longitude>
+        </Location>
+        <CumulativeOperatingHours datetime="2018-03-20T22:49:05Z">
+            <Hour>3838.60</Hour>
+        </CumulativeOperatingHours>
+        <EngineStatus datetime="2018-03-21T17:00:39Z">
+            <EngineNumber>N/A</EngineNumber>
+            <Running>false</Running>
+        </EngineStatus>
+        <FuelUsedLast24 datetime="2018-03-22T17:00:39Z">
+            <FuelUnits>litre</FuelUnits>
+            <FuelConsumed>0</FuelConsumed>
+        </FuelUsedLast24>
+        <FuelRemaining datetime="2018-03-21T17:00:39Z">
+            <Percent>88.4</Percent>
+            <FuelTankCapacityUnits>litre</FuelTankCapacityUnits>
+            <FuelTankCapacity>305</FuelTankCapacity>
+        </FuelRemaining>
+    </Equipment>
+    <Equipment>
+        <EquipmentHeader>
+            <UnitInstallDateTime>2018-04-05T00:00:00Z</UnitInstallDateTime>
+            <OEMName>Tigercat</OEMName>
+            <Model>635E</Model>
+            <EquipmentID>Dona Isidora - 6352060 - SKG47</EquipmentID>
+            <SerialNumber>6352060</SerialNumber>
+            <PIN>833438</PIN>
+        </EquipmentHeader>
+        <AverageLoadFactorLast24 datetime="2024-08-21T14:50:23Z">
+            <Percent>18.6</Percent>
+        </AverageLoadFactorLast24>
+        <Location datetime="2024-08-21T14:30:05Z">
+            <Latitude>-37.739733</Latitude>
+            <Longitude>-72.812</Longitude>
+        </Location>
+        <CumulativeIdleHours datetime="2024-08-21T14:26:47Z">
+            <Hour>1438.86</Hour>
+        </CumulativeIdleHours>
+        <CumulativeOperatingHours datetime="2024-08-20T23:14:22Z">
+            <Hour>3976.3</Hour>
+        </CumulativeOperatingHours>
+        <CumulativePowerTakeOffHours datetime="2024-08-21T14:20:10Z">
+            <Hour>61440.05</Hour>
+        </CumulativePowerTakeOffHours>
+        <Distance datetime="2024-08-20T23:14:22Z">
+            <OdometerUnits>kilometre</OdometerUnits>
+            <Odometer>32344.9</Odometer>
+        </Distance>
+        <EngineStatus datetime="2024-08-21T14:26:47Z">
+            <EngineNumber>N/A</EngineNumber>
+            <Running>true</Running>
+        </EngineStatus>
+        <FuelUsed datetime="2024-08-21T14:20:10Z">
+            <FuelUnits>litre</FuelUnits>
+            <FuelConsumed>337079</FuelConsumed>
+        </FuelUsed>
+        <FuelUsedLast24 datetime="2024-08-21T14:20:10Z">
+            <FuelUnits>litre</FuelUnits>
+            <FuelConsumed>159</FuelConsumed>
+        </FuelUsedLast24>
+        <FuelRemaining datetime="2024-08-21T14:26:47Z">
+            <Percent>29.2</Percent>
+            <FuelTankCapacityUnits>litre</FuelTankCapacityUnits>
+            <FuelTankCapacity>305</FuelTankCapacity>
+        </FuelRemaining>
+    </Equipment>
+    <Equipment>
+        <EquipmentHeader>
+            <UnitInstallDateTime>2018-05-07T00:00:00Z</UnitInstallDateTime>
+            <OEMName>Tigercat</OEMName>
+            <Model>635G</Model>
+            <EquipmentID>Dona Isidora - 6353071 - SKG54</EquipmentID>
+            <SerialNumber>6353071</SerialNumber>
+            <PIN>833532</PIN>
+        </EquipmentHeader>
+        <Location datetime="2022-12-21T22:24:43Z">
+            <Latitude>-38.9037</Latitude>
+            <Longitude>-73.087683</Longitude>
+        </Location>
+        <CumulativeOperatingHours datetime="2022-12-21T11:13:17Z">
+            <Hour>5592.45</Hour>
+        </CumulativeOperatingHours>
+        <EngineStatus datetime="2022-12-21T22:24:46Z">
+            <EngineNumber>N/A</EngineNumber>
+            <Running>false</Running>
+        </EngineStatus>
+        <FuelUsedLast24 datetime="2022-12-22T22:24:46Z">
+            <FuelUnits>litre</FuelUnits>
+            <FuelConsumed>0</FuelConsumed>
+        </FuelUsedLast24>
+        <FuelRemaining datetime="2022-12-21T22:24:46Z">
+            <Percent>16.4</Percent>
+            <FuelTankCapacityUnits>litre</FuelTankCapacityUnits>
+            <FuelTankCapacity>430</FuelTankCapacity>
+        </FuelRemaining>
+    </Equipment>
+    <Equipment>
+        <EquipmentHeader>
+            <UnitInstallDateTime>2016-02-11T00:00:00Z</UnitInstallDateTime>
+            <OEMName>Tigercat</OEMName>
+            <Model>LS855C</Model>
+            <EquipmentID>Δ85501387</EquipmentID>
+            <SerialNumber>85501387</SerialNumber>
+            <PIN>839943</PIN>
+        </EquipmentHeader>
+    </Equipment>
+    <Equipment>
+        <EquipmentHeader>
+            <UnitInstallDateTime>2021-05-06T00:00:00Z</UnitInstallDateTime>
+            <OEMName>Tigercat</OEMName>
+            <Model>L855E</Model>
+            <EquipmentID>Dona Isidora - 85523590 FELLER53</EquipmentID>
+            <SerialNumber>85523590</SerialNumber>
+            <PIN>841424</PIN>
+        </EquipmentHeader>
+        <AverageLoadFactorLast24 datetime="2024-08-21T14:50:23Z">
+            <Percent>69.2</Percent>
+        </AverageLoadFactorLast24>
+        <Location datetime="2024-08-21T14:36:08Z">
+            <Latitude>-37.699617</Latitude>
+            <Longitude>-72.005517</Longitude>
+        </Location>
+        <CumulativeIdleHours datetime="2024-08-21T13:25:49Z">
+            <Hour>1351.46</Hour>
+        </CumulativeIdleHours>
+        <CumulativeLoadCount datetime="2024-08-20T23:08:14Z">
+            <Count>1744787</Count>
+        </CumulativeLoadCount>
+        <CumulativeOperatingHours datetime="2024-08-20T23:12:34Z">
+            <Hour>4859.15</Hour>
+        </CumulativeOperatingHours>
+        <CumulativePowerTakeOffHours datetime="2024-08-21T13:18:09Z">
+            <Hour>3423.04</Hour>
+        </CumulativePowerTakeOffHours>
+        <Distance datetime="2024-08-20T23:12:34Z">
+            <OdometerUnits>kilometre</OdometerUnits>
+            <Odometer>3187.4</Odometer>
+        </Distance>
+        <EngineStatus datetime="2024-08-21T13:25:49Z">
+            <EngineNumber>N/A</EngineNumber>
+            <Running>true</Running>
+        </EngineStatus>
+        <FuelUsed datetime="2024-08-20T23:08:14Z">
+            <FuelUnits>litre</FuelUnits>
+            <FuelConsumed>179641</FuelConsumed>
+        </FuelUsed>
+        <FuelUsedLast24 datetime="2024-08-20T23:08:14Z">
+            <FuelUnits>litre</FuelUnits>
+            <FuelConsumed>120</FuelConsumed>
+        </FuelUsedLast24>
+    </Equipment>
+    <Equipment>
+        <EquipmentHeader>
+            <UnitInstallDateTime>2021-04-23T00:00:00Z</UnitInstallDateTime>
+            <OEMName>Tigercat</OEMName>
+            <Model>625H</Model>
+            <EquipmentID>Dona Isidora - 6250825 - SKG55</EquipmentID>
+            <SerialNumber>6250825</SerialNumber>
+            <PIN>841451</PIN>
+        </EquipmentHeader>
+        <AverageLoadFactorLast24 datetime="2024-08-21T14:50:23Z">
+            <Percent>56.8</Percent>
+        </AverageLoadFactorLast24>
+        <Location datetime="2024-08-21T13:46:27Z">
+            <Latitude>-37.701367</Latitude>
+            <Longitude>-72.0057</Longitude>
+        </Location>
+        <CumulativeIdleHours datetime="2024-08-21T13:53:54Z">
+            <Hour>2371.94</Hour>
+        </CumulativeIdleHours>
+        <CumulativeOperatingHours datetime="2024-08-20T21:27:18Z">
+            <Hour>5515.4</Hour>
+        </CumulativeOperatingHours>
+        <CumulativePowerTakeOffHours datetime="2024-08-21T13:47:52Z">
+            <Hour>7498.71</Hour>
+        </CumulativePowerTakeOffHours>
+        <Distance datetime="2024-08-20T21:27:18Z">
+            <OdometerUnits>kilometre</OdometerUnits>
+            <Odometer>35844.7</Odometer>
+        </Distance>
+        <EngineStatus datetime="2024-08-21T13:53:54Z">
+            <EngineNumber>N/A</EngineNumber>
+            <Running>true</Running>
+        </EngineStatus>
+        <FuelUsed datetime="2024-08-21T11:45:17Z">
+            <FuelUnits>litre</FuelUnits>
+            <FuelConsumed>267770</FuelConsumed>
+        </FuelUsed>
+        <FuelUsedLast24 datetime="2024-08-21T13:47:52Z">
+            <FuelUnits>litre</FuelUnits>
+            <FuelConsumed>485</FuelConsumed>
+        </FuelUsedLast24>
+    </Equipment>
+    <Equipment>
+        <EquipmentHeader>
+            <UnitInstallDateTime>2021-07-28T00:00:00Z</UnitInstallDateTime>
+            <OEMName>Tigercat</OEMName>
+            <Model>H855E</Model>
+            <EquipmentID>Dona Isidora - 85533625 PRO111</EquipmentID>
+            <SerialNumber>85533625</SerialNumber>
+            <PIN>841915</PIN>
+        </EquipmentHeader>
+        <AverageLoadFactorLast24 datetime="2024-08-21T14:50:23Z">
+            <Percent>33.9</Percent>
+        </AverageLoadFactorLast24>
+        <Location datetime="2024-08-21T14:16:24Z">
+            <Latitude>-37.702017</Latitude>
+            <Longitude>-72.005933</Longitude>
+        </Location>
+        <CumulativeIdleHours datetime="2024-08-21T04:55:42Z">
+            <Hour>4387.23</Hour>
+        </CumulativeIdleHours>
+        <CumulativeLoadCount datetime="2024-07-26T00:56:08Z">
+            <Count>26365933</Count>
+        </CumulativeLoadCount>
+        <CumulativeOperatingHours datetime="2024-08-21T14:05:09Z">
+            <Hour>11787.05</Hour>
+        </CumulativeOperatingHours>
+        <CumulativePowerTakeOffHours datetime="2024-08-21T14:05:09Z">
+            <Hour>7111.91</Hour>
+        </CumulativePowerTakeOffHours>
+        <CumulativePayloadTotals datetime="2024-08-21T14:05:09Z">
+            <PayloadUnits>cubic_metre</PayloadUnits>
+            <Payload>47991950</Payload>
+        </CumulativePayloadTotals>
+        <Distance datetime="2024-08-21T12:44:18Z">
+            <OdometerUnits>kilometre</OdometerUnits>
+            <Odometer>2055.7</Odometer>
+        </Distance>
+        <EngineStatus datetime="2024-08-21T14:16:25Z">
+            <EngineNumber>N/A</EngineNumber>
+            <Running>true</Running>
+        </EngineStatus>
+        <FuelUsed datetime="2024-08-21T14:05:09Z">
+            <FuelUnits>litre</FuelUnits>
+            <FuelConsumed>313258</FuelConsumed>
+        </FuelUsed>
+        <FuelUsedLast24 datetime="2024-08-21T14:17:58Z">
+            <FuelUnits>litre</FuelUnits>
+            <FuelConsumed>396</FuelConsumed>
+        </FuelUsedLast24>
+        <FuelRemaining datetime="2024-08-21T14:16:25Z">
+            <Percent>58</Percent>
+            <FuelTankCapacityUnits>litre</FuelTankCapacityUnits>
+            <FuelTankCapacity>800</FuelTankCapacity>
+        </FuelRemaining>
+    </Equipment>
+    <Equipment>
+        <EquipmentHeader>
+            <UnitInstallDateTime>2021-10-06T00:00:00Z</UnitInstallDateTime>
+            <OEMName>Tigercat</OEMName>
+            <Model>LS855E</Model>
+            <EquipmentID>Dona Isidora - 85503643 SHOVEL7</EquipmentID>
+            <SerialNumber>85503643</SerialNumber>
+            <PIN>842196</PIN>
+        </EquipmentHeader>
+        <AverageLoadFactorLast24 datetime="2024-08-21T14:50:23Z">
+            <Percent>46.6</Percent>
+        </AverageLoadFactorLast24>
+        <Location datetime="2024-08-21T14:42:15Z">
+            <Latitude>-37.477317</Latitude>
+            <Longitude>-72.947783</Longitude>
+        </Location>
+        <CumulativeIdleHours datetime="2024-08-21T13:28:22Z">
+            <Hour>1716.86</Hour>
+        </CumulativeIdleHours>
+        <CumulativeOperatingHours datetime="2024-08-21T11:34:23Z">
+            <Hour>6087.35</Hour>
+        </CumulativeOperatingHours>
+        <CumulativePowerTakeOffHours datetime="2024-08-21T13:16:43Z">
+            <Hour>4278.66</Hour>
+        </CumulativePowerTakeOffHours>
+        <Distance datetime="2024-08-21T11:34:23Z">
+            <OdometerUnits>kilometre</OdometerUnits>
+            <Odometer>3567.7</Odometer>
+        </Distance>
+        <EngineStatus datetime="2024-08-21T13:46:16Z">
+            <EngineNumber>N/A</EngineNumber>
+            <Running>true</Running>
+        </EngineStatus>
+        <FuelUsed datetime="2024-08-21T13:28:22Z">
+            <FuelUnits>litre</FuelUnits>
+            <FuelConsumed>162895</FuelConsumed>
+        </FuelUsed>
+        <FuelUsedLast24 datetime="2024-08-21T14:29:11Z">
+            <FuelUnits>litre</FuelUnits>
+            <FuelConsumed>184</FuelConsumed>
+        </FuelUsedLast24>
+        <FuelRemaining datetime="2024-08-21T13:46:16Z">
+            <Percent>80.8</Percent>
+            <FuelTankCapacityUnits>litre</FuelTankCapacityUnits>
+            <FuelTankCapacity>800</FuelTankCapacity>
+        </FuelRemaining>
+    </Equipment>
+    <Equipment>
+        <EquipmentHeader>
+            <UnitInstallDateTime>2022-09-28T00:00:00Z</UnitInstallDateTime>
+            <OEMName>Tigercat</OEMName>
+            <Model>632H</Model>
+            <EquipmentID>Dona Isidora - 6320669</EquipmentID>
+            <SerialNumber>6320669</SerialNumber>
+            <PIN>844028</PIN>
+        </EquipmentHeader>
+        <AverageLoadFactorLast24 datetime="2024-08-21T14:50:23Z">
+            <Percent>39.9</Percent>
+        </AverageLoadFactorLast24>
+        <Location datetime="2024-08-21T01:28:46Z">
+            <Latitude>-37.037367</Latitude>
+            <Longitude>-72.428717</Longitude>
+        </Location>
+        <CumulativeIdleHours datetime="2024-08-20T19:34:50Z">
+            <Hour>727.03</Hour>
+        </CumulativeIdleHours>
+        <CumulativeOperatingHours datetime="2024-08-20T23:40:05Z">
+            <Hour>5375.6</Hour>
+        </CumulativeOperatingHours>
+        <CumulativePowerTakeOffHours datetime="2024-08-21T01:30:49Z">
+            <Hour>4601.78</Hour>
+        </CumulativePowerTakeOffHours>
+        <Distance datetime="2024-08-20T23:40:05Z">
+            <OdometerUnits>kilometre</OdometerUnits>
+            <Odometer>24021.8</Odometer>
+        </Distance>
+        <EngineStatus datetime="2024-08-21T01:30:49Z">
+            <EngineNumber>N/A</EngineNumber>
+            <Running>false</Running>
+        </EngineStatus>
+        <FuelUsed datetime="2024-08-21T01:30:49Z">
+            <FuelUnits>litre</FuelUnits>
+            <FuelConsumed>137667</FuelConsumed>
+        </FuelUsed>
+        <FuelUsedLast24 datetime="2024-08-21T12:22:58Z">
+            <FuelUnits>litre</FuelUnits>
+            <FuelConsumed>155</FuelConsumed>
+        </FuelUsedLast24>
+        <FuelRemaining datetime="2024-08-21T01:30:49Z">
+            <Percent>84</Percent>
+            <FuelTankCapacityUnits>litre</FuelTankCapacityUnits>
+            <FuelTankCapacity>430</FuelTankCapacity>
+        </FuelRemaining>
+    </Equipment>
+    <Equipment>
+        <EquipmentHeader>
+            <UnitInstallDateTime>2022-12-05T00:00:00Z</UnitInstallDateTime>
+            <OEMName>Tigercat</OEMName>
+            <Model>625H</Model>
+            <EquipmentID>Dona Isidora - 6250902</EquipmentID>
+            <SerialNumber>6250902</SerialNumber>
+            <PIN>844585</PIN>
+        </EquipmentHeader>
+        <AverageLoadFactorLast24 datetime="2024-08-21T14:50:23Z">
+            <Percent>21.4</Percent>
+        </AverageLoadFactorLast24>
+        <Location datetime="2024-08-21T14:09:01Z">
+            <Latitude>-37.47855</Latitude>
+            <Longitude>-72.94825</Longitude>
+        </Location>
+        <CumulativeIdleHours datetime="2024-08-21T13:27:25Z">
+            <Hour>924.09</Hour>
+        </CumulativeIdleHours>
+        <CumulativeOperatingHours datetime="2024-08-21T12:43:30Z">
+            <Hour>2651.2</Hour>
+        </CumulativeOperatingHours>
+        <CumulativePowerTakeOffHours datetime="2024-08-21T13:11:24Z">
+            <Hour>2079.14</Hour>
+        </CumulativePowerTakeOffHours>
+        <Distance datetime="2024-08-21T12:08:57Z">
+            <OdometerUnits>kilometre</OdometerUnits>
+            <Odometer>8615.6</Odometer>
+        </Distance>
+        <EngineStatus datetime="2024-08-21T13:27:25Z">
+            <EngineNumber>N/A</EngineNumber>
+            <Running>true</Running>
+        </EngineStatus>
+        <FuelUsed datetime="2024-08-21T12:43:30Z">
+            <FuelUnits>litre</FuelUnits>
+            <FuelConsumed>68899</FuelConsumed>
+        </FuelUsed>
+        <FuelUsedLast24 datetime="2024-08-21T14:11:34Z">
+            <FuelUnits>litre</FuelUnits>
+            <FuelConsumed>15</FuelConsumed>
+        </FuelUsedLast24>
+    </Equipment>
+    <Equipment>
+        <EquipmentHeader>
+            <UnitInstallDateTime>2023-01-13T00:00:00Z</UnitInstallDateTime>
+            <OEMName>Tigercat</OEMName>
+            <Model>L855E</Model>
+            <EquipmentID>Dona Isidora - 85523896</EquipmentID>
+            <SerialNumber>85523896</SerialNumber>
+            <PIN>844613</PIN>
+        </EquipmentHeader>
+        <AverageLoadFactorLast24 datetime="2024-08-21T14:50:23Z">
+            <Percent>73.0</Percent>
+        </AverageLoadFactorLast24>
+        <Location datetime="2024-08-21T13:42:38Z">
+            <Latitude>-37.039633</Latitude>
+            <Longitude>-72.425933</Longitude>
+        </Location>
+        <CumulativeIdleHours datetime="2024-08-21T12:42:09Z">
+            <Hour>123.31</Hour>
+        </CumulativeIdleHours>
+        <CumulativeLoadCount datetime="2024-08-21T13:48:52Z">
+            <Count>2079068</Count>
+        </CumulativeLoadCount>
+        <CumulativeOperatingHours datetime="2024-08-21T10:26:08Z">
+            <Hour>3758.1</Hour>
+        </CumulativeOperatingHours>
+        <CumulativePowerTakeOffHours datetime="2024-08-21T13:48:52Z">
+            <Hour>3554.77</Hour>
+        </CumulativePowerTakeOffHours>
+        <Distance datetime="2024-08-21T10:26:08Z">
+            <OdometerUnits>kilometre</OdometerUnits>
+            <Odometer>2560.2</Odometer>
+        </Distance>
+        <EngineStatus datetime="2024-08-21T13:48:52Z">
+            <EngineNumber>N/A</EngineNumber>
+            <Running>false</Running>
+        </EngineStatus>
+        <FuelUsed datetime="2024-08-21T13:48:52Z">
+            <FuelUnits>litre</FuelUnits>
+            <FuelConsumed>150318</FuelConsumed>
+        </FuelUsed>
+        <FuelUsedLast24 datetime="2024-08-21T14:26:30Z">
+            <FuelUnits>litre</FuelUnits>
+            <FuelConsumed>170</FuelConsumed>
+        </FuelUsedLast24>
+        <FuelRemaining datetime="2024-08-21T13:48:52Z">
+            <Percent>68.8</Percent>
+            <FuelTankCapacityUnits>litre</FuelTankCapacityUnits>
+            <FuelTankCapacity>800</FuelTankCapacity>
+        </FuelRemaining>
+    </Equipment>
+    <Equipment>
+        <EquipmentHeader>
+            <UnitInstallDateTime>2023-06-16T00:00:00Z</UnitInstallDateTime>
+            <OEMName>Tigercat</OEMName>
+            <Model>LS855E</Model>
+            <EquipmentID>Dona Isidora - 85504050</EquipmentID>
+            <SerialNumber>85504050</SerialNumber>
+            <PIN>845683</PIN>
+        </EquipmentHeader>
+        <AverageLoadFactorLast24 datetime="2024-08-21T14:50:24Z">
+            <Percent>41.3</Percent>
+        </AverageLoadFactorLast24>
+        <Location datetime="2024-08-21T14:09:25Z">
+            <Latitude>-37.7386</Latitude>
+            <Longitude>-72.814433</Longitude>
+        </Location>
+        <CumulativeIdleHours datetime="2024-08-20T14:35:58Z">
+            <Hour>127.61</Hour>
+        </CumulativeIdleHours>
+        <CumulativeOperatingHours datetime="2024-08-20T22:54:51Z">
+            <Hour>1541.5</Hour>
+        </CumulativeOperatingHours>
+        <CumulativePowerTakeOffHours datetime="2024-08-21T13:07:43Z">
+            <Hour>1398.22</Hour>
+        </CumulativePowerTakeOffHours>
+        <Distance datetime="2024-08-20T22:54:51Z">
+            <OdometerUnits>kilometre</OdometerUnits>
+            <Odometer>1060.2</Odometer>
+        </Distance>
+        <EngineStatus datetime="2024-08-21T13:17:48Z">
+            <EngineNumber>N/A</EngineNumber>
+            <Running>true</Running>
+        </EngineStatus>
+        <FuelUsed datetime="2024-08-21T13:07:43Z">
+            <FuelUnits>litre</FuelUnits>
+            <FuelConsumed>36820</FuelConsumed>
+        </FuelUsed>
+        <FuelUsedLast24 datetime="2024-08-21T14:35:58Z">
+            <FuelUnits>litre</FuelUnits>
+            <FuelConsumed>168</FuelConsumed>
+        </FuelUsedLast24>
+        <FuelRemaining datetime="2024-08-21T13:17:48Z">
+            <Percent>100</Percent>
+            <FuelTankCapacityUnits>litre</FuelTankCapacityUnits>
+            <FuelTankCapacity>800</FuelTankCapacity>
+        </FuelRemaining>
+    </Equipment>
+    <Equipment>
+        <EquipmentHeader>
+            <UnitInstallDateTime>2023-10-27T00:00:00Z</UnitInstallDateTime>
+            <OEMName>Tigercat</OEMName>
+            <Model>L855E</Model>
+            <EquipmentID>Dona Isidora - 85524106</EquipmentID>
+            <SerialNumber>85524106</SerialNumber>
+            <PIN>846667</PIN>
+        </EquipmentHeader>
+        <Location datetime="2024-08-20T20:11:57Z">
+            <Latitude>-37.27295</Latitude>
+            <Longitude>-72.633133</Longitude>
+        </Location>
+        <CumulativeLoadCount datetime="2024-08-18T18:45:09Z">
+            <Count>162887</Count>
+        </CumulativeLoadCount>
+        <CumulativeOperatingHours datetime="2024-08-19T20:03:02Z">
+            <Hour>692.65</Hour>
+        </CumulativeOperatingHours>
+        <Distance datetime="2024-08-19T20:03:02Z">
+            <OdometerUnits>kilometre</OdometerUnits>
+            <Odometer>387.7</Odometer>
+        </Distance>
+        <EngineStatus datetime="2024-08-20T20:11:57Z">
+            <EngineNumber>N/A</EngineNumber>
+            <Running>false</Running>
+        </EngineStatus>
+        <FuelUsedLast24 datetime="2024-08-19T20:07:19Z">
+            <FuelUnits>litre</FuelUnits>
+            <FuelConsumed>0</FuelConsumed>
+        </FuelUsedLast24>
+        <FuelRemaining datetime="2024-08-20T20:11:57Z">
+            <Percent>0</Percent>
+            <FuelTankCapacityUnits>litre</FuelTankCapacityUnits>
+            <FuelTankCapacity>800</FuelTankCapacity>
+        </FuelRemaining>
+    </Equipment>
+</Fleet>

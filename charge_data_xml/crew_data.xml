@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <data noupdate="1">
+        <record id="crew_type_100" model="struct.crew.type">
+            <field name="name">ADMINISTRATIVO CONTABLE</field>
+            <field name="alt_name">AC</field>
+        </record>
+        <record id="crew_type_101" model="struct.crew.type">
+            <field name="name">ANALISTA CONTROL DE GESTION</field>
+            <field name="alt_name">ACDG</field>
+        </record>
+        <record id="crew_type_102" model="struct.crew.type">
+            <field name="name">ASESOR EXPERTO PREVENCION DE RIESGOS</field>
+            <field name="alt_name">AEPDR</field>
+        </record>
+        <record id="crew_type_103" model="struct.crew.type">
+            <field name="name">ASISTENTE DE COMPRAS Y ABASTECIMIENTO</field>
+            <field name="alt_name">ADCYA</field>
+        </record>
+        <record id="crew_type_104" model="struct.crew.type">
+            <field name="name">ASISTENTE OFICINA ADM</field>
+            <field name="alt_name">AOA</field>
+        </record>
+        <record id="crew_type_105" model="struct.crew.type">
+            <field name="name">AUDITOR INTERNO</field>
+            <field name="alt_name">AI</field>
+        </record>
+        <record id="crew_type_106" model="struct.crew.type">
+            <field name="name">AYUDANTE MECANICO (C)</field>
+            <field name="alt_name">AMC</field>
+        </record>
+        <record id="crew_type_107" model="struct.crew.type">
+            <field name="name">CALIBRADOR DE MADERAS</field>
+            <field name="alt_name">CDM</field>
+        </record>
+        <record id="crew_type_108" model="struct.crew.type">
+            <field name="name">CELADOR EN FAENAS</field>
+            <field name="alt_name">CEF</field>
+        </record>
+        <record id="crew_type_109" model="struct.crew.type">
+            <field name="name">CELADOR OFICINA ADMINISTRACION</field>
+            <field name="alt_name">COA</field>
+        </record>
+        <record id="crew_type_110" model="struct.crew.type">
+            <field name="name">CONDUCTOR DE CAMION</field>
+            <field name="alt_name">CDC</field>
+        </record>
+        <record id="crew_type_111" model="struct.crew.type">
+            <field name="name">CONDUCTOR LOGISTICO OPERACIONES</field>
+            <field name="alt_name">CLO</field>
+        </record>
+        <record id="crew_type_112" model="struct.crew.type">
+            <field name="name">CONDUCTOR TRASLADO PERSONAL</field>
+            <field name="alt_name">CTP</field>
+        </record>
+        <record id="crew_type_113" model="struct.crew.type">
+            <field name="name">COORDINADOR SST</field>
+            <field name="alt_name">CS</field>
+        </record>
+        <record id="crew_type_114" model="struct.crew.type">
+            <field name="name">ENCARGADO DE BODEGA</field>
+            <field name="alt_name">EDB</field>
+        </record>
+        <record id="crew_type_115" model="struct.crew.type">
+            <field name="name">ENCARGADO PERSONAL Y REMUNERACIONES</field>
+            <field name="alt_name">EPYR</field>
+        </record>
+        <record id="crew_type_116" model="struct.crew.type">
+            <field name="name">ENCARGADO SAP</field>
+            <field name="alt_name">ES</field>
+        </record>
+        <record id="crew_type_117" model="struct.crew.type">
+            <field name="name">FACILITADOR DE MAQUINARIAS</field>
+            <field name="alt_name">FDM</field>
+        </record>
+        <record id="crew_type_118" model="struct.crew.type">
+            <field name="name">GENERALISTA ADMINISTRACION</field>
+            <field name="alt_name">GA</field>
+        </record>
+        <record id="crew_type_119" model="struct.crew.type">
+            <field name="name">GERENTE GENERAL</field>
+            <field name="alt_name">GG</field>
+        </record>
+        <record id="crew_type_120" model="struct.crew.type">
+            <field name="name">GERENTE OPERACIONES</field>
+            <field name="alt_name">GO</field>
+        </record>
+        <record id="crew_type_121" model="struct.crew.type">
+            <field name="name">INGENIERO DE CONFIABILIDAD</field>
+            <field name="alt_name">IDCD</field>
+        </record>
+        <record id="crew_type_122" model="struct.crew.type">
+            <field name="name">INGENIERO DE CONTRATOS</field>
+            <field name="alt_name">IDC</field>
+        </record>
+        <record id="crew_type_123" model="struct.crew.type">
+            <field name="name">INGENIERO EN GESTION DE OPERACIONES</field>
+            <field name="alt_name">IEGDO</field>
+        </record>
+        <record id="crew_type_124" model="struct.crew.type">
+            <field name="name">INGENIERO GESTION MAQUINARIAS</field>
+            <field name="alt_name">IGM</field>
+        </record>
+        <record id="crew_type_125" model="struct.crew.type">
+            <field name="name">JEFE DE ADMINISTRACION</field>
+            <field name="alt_name">JDA</field>
+        </record>
+        <record id="crew_type_126" model="struct.crew.type">
+            <field name="name">JEFE DE PERSONAS</field>
+            <field name="alt_name">JDP</field>
+        </record>
+        <record id="crew_type_127" model="struct.crew.type">
+            <field name="name">JEFE DEPTO CONTROL DE GESTION</field>
+            <field name="alt_name">JDCDG</field>
+        </record>
+        <record id="crew_type_128" model="struct.crew.type">
+            <field name="name">JEFE DEPTO SSO Y MA</field>
+            <field name="alt_name">JDSYM</field>
+        </record>
+        <record id="crew_type_129" model="struct.crew.type">
+            <field name="name">JEFE FAENAS</field>
+            <field name="alt_name">JF</field>
+        </record>
+        <record id="crew_type_130" model="struct.crew.type">
+            <field name="name">JEFE FAENAS EN ENTRENAMIENTO</field>
+            <field name="alt_name">JFEE</field>
+        </record>
+        <record id="crew_type_131" model="struct.crew.type">
+            <field name="name">JEFE MAQUINARIAS</field>
+            <field name="alt_name">JM</field>
+        </record>
+        <record id="crew_type_132" model="struct.crew.type">
+            <field name="name">MECANICO MAQUINAS (A)</field>
+            <field name="alt_name">MMA</field>
+        </record>
+        <record id="crew_type_133" model="struct.crew.type">
+            <field name="name">MECANICO MAQUINAS (B)</field>
+            <field name="alt_name">MMB</field>
+        </record>
+        <record id="crew_type_134" model="struct.crew.type">
+            <field name="name">MECANICO MAQUINAS (LIDER)</field>
+            <field name="alt_name">MML</field>
+        </record>
+        <record id="crew_type_135" model="struct.crew.type">
+            <field name="name">MOTOSIERRISTA RECTIFICADO</field>
+            <field name="alt_name">MR</field>
+        </record>
+        <record id="crew_type_136" model="struct.crew.type">
+            <field name="name">OPERADOR ARRUMADO EXCAVADORA</field>
+            <field name="alt_name">OAE</field>
+        </record>
+        <record id="crew_type_137" model="struct.crew.type">
+            <field name="name">OPERADOR CLASIFICADO EXCAVADORA</field>
+            <field name="alt_name">OCE</field>
+        </record>
+        <record id="crew_type_138" model="struct.crew.type">
+            <field name="name">OPERADOR EN ENTRENAMIENTO</field>
+            <field name="alt_name">OEE</field>
+        </record>
+        <record id="crew_type_139" model="struct.crew.type">
+            <field name="name">OPERADOR PROCESADOR DE MADERAS</field>
+            <field name="alt_name">OPDM</field>
+        </record>
+        <record id="crew_type_140" model="struct.crew.type">
+            <field name="name">OPERADOR SKIDDER GRAPPLE</field>
+            <field name="alt_name">OSG</field>
+        </record>
+        <record id="crew_type_141" model="struct.crew.type">
+            <field name="name">OPERADOR TORRE ALPINE</field>
+            <field name="alt_name">OTA</field>
+        </record>
+        <record id="crew_type_142" model="struct.crew.type">
+            <field name="name">OPERADOR VOLTEO FELLER</field>
+            <field name="alt_name">OVF</field>
+        </record>
+        <record id="crew_type_143" model="struct.crew.type">
+            <field name="name">OPERADOR VOLTEO SHOVELL</field>
+            <field name="alt_name">OVS</field>
+        </record>
+        <record id="crew_type_144" model="struct.crew.type">
+            <field name="name">PREINSTALADOR TORRE</field>
+            <field name="alt_name">PT</field>
+        </record>
+        <record id="crew_type_145" model="struct.crew.type">
+            <field name="name">SUBGERENTE DE ADMINISTRACION</field>
+            <field name="alt_name">SDA</field>
+        </record>
+        <record id="crew_type_146" model="struct.crew.type">
+            <field name="name">SUPERVISOR DE FAENAS</field>
+            <field name="alt_name">SDF</field>
+        </record>
+        <record id="crew_type_147" model="struct.crew.type">
+            <field name="name">SUPERVISOR MAQUINARIAS</field>
+            <field name="alt_name">SM</field>
+        </record>
+    </data>
+</odoo>
